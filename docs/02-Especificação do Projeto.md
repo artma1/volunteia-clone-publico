@@ -107,3 +107,6 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de
 > - [Lucidchart](https://www.lucidchart.com/)
 > - [Astah](https://astah.net/)
 > - [Diagrams](https://app.diagrams.net/)
+
+### É necessário realizar a gravação do Vídeo de 2 minutos sobre o problema e a solução proposta pela nossa equipe.
+
