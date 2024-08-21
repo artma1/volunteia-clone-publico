@@ -10,9 +10,9 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Integrantes
 
-Artur Maciel de Assis Pinto
+* Artur Maciel de Assis Pinto
 * Nome completo do aluno 2
-* Nome completo do aluno 3
+* Gustavo Gonçalve da Paz
 * Nome completo do aluno 4
 
 ## Orientador
