@@ -1,6 +1,6 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+No cenário global atual, onde a busca por soluções sustentáveis e o compromisso com o bem-estar social se tornam cada vez mais urgentes, surge a necessidade de plataformas que possam catalisar essas mudanças. Este projeto visa desenvolver uma aplicação interativa que conecte pessoas e instituições dispostas a realizar e participar de ações voluntárias que promovam impactos positivos na sociedade. Inspirada pelos 17 Objetivos de Desenvolvimento Sustentável (ODS) da ONU, no Brasil, esta plataforma será um espaço onde indivíduos e organizações poderão criar, apoiar e participar de eventos e ações que contribuam para um mundo mais justo e sustentável. Com a possibilidade de qualquer pessoa ou instituição se envolver em causas que lhe são caras, a plataforma promete ser um ponto de encontro essencial para aqueles que desejam contribuir para um mundo melhor, um evento de cada vez.
 
 É necessário realizar a gravação do Vídeo de 2 minutos sobre o problema e a solução proposta pela nossa equipe.
 
