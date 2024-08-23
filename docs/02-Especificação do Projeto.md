@@ -9,117 +9,51 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 ## Personas
 
 
-## Persona 1: João Pedro Martins
-
-**Idade:** 35 anos  
-**Profissão:** Engenheiro Ambiental  
-**Localização:** Curitiba, Brasil  
-**Formação:** Graduação em Engenharia Ambiental  
-**Objetivo:** Organizar mutirões para reflorestamento e recuperação de áreas degradadas
-
-### Descrição
-João Pedro é um engenheiro ambiental dedicado que trabalha em uma empresa de consultoria ecológica. Apaixonado por conservação ambiental, ele deseja mobilizar pessoas em torno de projetos de reflorestamento e recuperação de áreas afetadas por desastres naturais. Ele busca formas eficientes de engajar voluntários e atrair patrocinadores para seus projetos.
-
-### Dores
-João enfrenta dificuldades para encontrar uma plataforma que facilite a organização e divulgação de seus projetos. Ele também tem dificuldades em atrair voluntários comprometidos e em conseguir patrocínios suficientes para cobrir os custos das operações.
-
-### Expectativas
-João espera encontrar uma plataforma que ofereça ferramentas práticas para organizar e divulgar seus mutirões. Ele deseja um sistema que permita o cadastro de patrocinadores e a gestão de recursos de forma transparente e eficiente, garantindo o sucesso de suas ações.
+| ![download](https://github.com/user-attachments/assets/04be94c0-5083-4178-911d-b513534dca18) | **Nome:** João Pedro Martins  <br> **Idade:** 35 anos  <br> **Profissão:** Engenheiro Ambiental  <br> **Localização:** Curitiba, Brasil  <br> **Formação:** Graduação em Engenharia Ambiental  <br> **Objetivo:** Organizar mutirões para reflorestamento e recuperação de áreas degradadas |
+|-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Descrição**                       | João Pedro é um engenheiro ambiental dedicado que trabalha em uma empresa de consultoria ecológica. Apaixonado por conservação ambiental, ele deseja mobilizar pessoas em torno de projetos de reflorestamento e recuperação de áreas afetadas por desastres naturais. Ele busca formas eficientes de engajar voluntários e atrair patrocinadores para seus projetos. |
+| **Dores**                           | João enfrenta dificuldades para encontrar uma plataforma que facilite a organização e divulgação de seus projetos. Ele também tem dificuldades em atrair voluntários comprometidos e em conseguir patrocínios suficientes para cobrir os custos das operações.                                                                                                               |
+| **Expectativas**                    | João espera encontrar uma plataforma que ofereça ferramentas práticas para organizar e divulgar seus mutirões. Ele deseja um sistema que permita o cadastro de patrocinadores e a gestão de recursos de forma transparente e eficiente, garantindo o sucesso de suas ações.                                                                                               |
 
 ---
 
-## Persona 2: Maria Luísa Ferreira
-
-**Idade:** 28 anos  
-**Profissão:** Coordenadora de Responsabilidade Social Corporativa  
-**Localização:** São Paulo, Brasil  
-**Formação:** MBA em Gestão de Projetos  
-**Objetivo:** Encontrar eventos de voluntariado para patrocinar em nome da empresa
-
-### Descrição
-Maria Luísa trabalha em uma grande empresa multinacional, onde é responsável por desenvolver e implementar projetos de responsabilidade social. Ela está sempre à procura de eventos que estejam alinhados com os valores da empresa e que possam ser patrocinados para melhorar a imagem corporativa e contribuir para o bem-estar social.
-
-### Dores
-Maria Luísa sente dificuldade em encontrar eventos que sejam transparentes e que realmente façam a diferença. Ela se preocupa com a reputação da empresa e quer garantir que os recursos sejam bem aplicados e que o patrocínio traga um impacto positivo.
-
-### Expectativas
-Maria Luísa espera que a plataforma ofereça uma ampla variedade de eventos confiáveis, com informações detalhadas sobre as necessidades e o impacto esperado. Ela também procura por um sistema que facilite a comunicação entre patrocinadores e organizadores, além de relatórios que comprovem os resultados obtidos.
+| ![Imagem da Persona](URL_DA_IMAGEM) | **Nome:** Maria Luísa Ferreira  <br> **Idade:** 28 anos  <br> **Profissão:** Coordenadora de Responsabilidade Social Corporativa  <br> **Localização:** São Paulo, Brasil  <br> **Formação:** MBA em Gestão de Projetos  <br> **Objetivo:** Encontrar eventos de voluntariado para patrocinar em nome da empresa |
+|-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Descrição**                       | Maria Luísa trabalha em uma grande empresa multinacional, onde é responsável por desenvolver e implementar projetos de responsabilidade social. Ela está sempre à procura de eventos que estejam alinhados com os valores da empresa e que possam ser patrocinados para melhorar a imagem corporativa e contribuir para o bem-estar social.                |
+| **Dores**                           | Maria Luísa sente dificuldade em encontrar eventos que sejam transparentes e que realmente façam a diferença. Ela se preocupa com a reputação da empresa e quer garantir que os recursos sejam bem aplicados e que o patrocínio traga um impacto positivo.                                                                                                           |
+| **Expectativas**                    | Maria Luísa espera que a plataforma ofereça uma ampla variedade de eventos confiáveis, com informações detalhadas sobre as necessidades e o impacto esperado. Ela também procura por um sistema que facilite a comunicação entre patrocinadores e organizadores, além de relatórios que comprovem os resultados obtidos.                                          |
 
 ---
 
-## Persona 3: Carlos Alberto Silva
-
-**Idade:** 42 anos  
-**Profissão:** Professor Universitário  
-**Localização:** Belo Horizonte, Brasil  
-**Formação:** Doutorado em Sociologia  
-**Objetivo:** Promover e participar de eventos educacionais voltados para a inclusão social
-
-### Descrição
-Carlos Alberto é um professor universitário apaixonado por ensinar e por promover a inclusão social através da educação. Ele frequentemente organiza palestras, workshops e outros eventos educativos voltados para comunidades carentes e grupos marginalizados. Ele está à procura de uma plataforma que facilite o planejamento e a realização dessas ações.
-
-### Dores
-Carlos enfrenta o desafio de divulgar seus eventos e de atrair tanto voluntários quanto participantes. Ele também tem dificuldades para encontrar parcerias e patrocínios que ajudem a viabilizar seus projetos.
-
-### Expectativas
-Carlos espera encontrar uma plataforma que ofereça recursos para a organização de eventos educacionais e que facilite a captação de voluntários e patrocinadores. Ele deseja que a plataforma ajude a aumentar o alcance de seus eventos, promovendo a inclusão e a educação para todos.
+| ![Imagem da Persona](URL_DA_IMAGEM) | **Nome:** Carlos Alberto Silva  <br> **Idade:** 42 anos  <br> **Profissão:** Professor Universitário  <br> **Localização:** Belo Horizonte, Brasil  <br> **Formação:** Doutorado em Sociologia  <br> **Objetivo:** Promover e participar de eventos educacionais voltados para a inclusão social |
+|-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Descrição**                       | Carlos Alberto é um professor universitário apaixonado por ensinar e por promover a inclusão social através da educação. Ele frequentemente organiza palestras, workshops e outros eventos educativos voltados para comunidades carentes e grupos marginalizados. Ele está à procura de uma plataforma que facilite o planejamento e a realização dessas ações. |
+| **Dores**                           | Carlos enfrenta o desafio de divulgar seus eventos e de atrair tanto voluntários quanto participantes. Ele também tem dificuldades para encontrar parcerias e patrocínios que ajudem a viabilizar seus projetos.                                                                                                                                                          |
+| **Expectativas**                    | Carlos espera encontrar uma plataforma que ofereça recursos para a organização de eventos educacionais e que facilite a captação de voluntários e patrocinadores. Ele deseja que a plataforma ajude a aumentar o alcance de seus eventos, promovendo a inclusão e a educação para todos.                                                                                 |
 
 ---
 
-## Persona 4: Renata Costa
-
-**Idade:** 22 anos  
-**Profissão:** Estudante de Relações Internacionais  
-**Localização:** Rio de Janeiro, Brasil  
-**Formação:** Cursando Bacharelado em Relações Internacionais  
-**Objetivo:** Participar de eventos de voluntariado voltados para a ajuda humanitária e direitos humanos
-
-### Descrição
-Renata é uma jovem estudante que sempre esteve envolvida em causas humanitárias. Com um forte desejo de fazer a diferença, ela está constantemente buscando oportunidades de voluntariado que estejam alinhadas com seus valores de justiça social e direitos humanos. Ela quer adquirir experiência prática enquanto contribui para a melhoria da sociedade.
-
-### Dores
-Renata muitas vezes encontra dificuldade em achar eventos de voluntariado que sejam acessíveis e bem organizados. Ela também se preocupa com a segurança e a legitimidade dos eventos, especialmente aqueles que envolvem viagens ou trabalho em áreas de risco.
-
-### Expectativas
-Renata espera que a plataforma ofereça uma seleção diversificada de eventos humanitários, com informações claras e confiáveis sobre as atividades. Ela procura por um sistema que priorize a segurança e que ofereça suporte para voluntários que desejam participar de ações em diferentes locais.
+| ![Imagem da Persona](URL_DA_IMAGEM) | **Nome:** Renata Costa  <br> **Idade:** 22 anos  <br> **Profissão:** Estudante de Relações Internacionais  <br> **Localização:** Rio de Janeiro, Brasil  <br> **Formação:** Cursando Bacharelado em Relações Internacionais  <br> **Objetivo:** Participar de eventos de voluntariado voltados para a ajuda humanitária e direitos humanos |
+|-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Descrição**                       | Renata é uma jovem estudante que sempre esteve envolvida em causas humanitárias. Com um forte desejo de fazer a diferença, ela está constantemente buscando oportunidades de voluntariado que estejam alinhados com seus valores de justiça social e direitos humanos. Ela quer adquirir experiência prática enquanto contribui para a melhoria da sociedade.    |
+| **Dores**                           | Renata muitas vezes encontra dificuldade em achar eventos de voluntariado que sejam acessíveis e bem organizados. Ela também se preocupa com a segurança e a legitimidade dos eventos, especialmente aqueles que envolvem viagens ou trabalho em áreas de risco.                                                                                                          |
+| **Expectativas**                    | Renata espera que a plataforma ofereça uma seleção diversificada de eventos humanitários, com informações claras e confiáveis sobre as atividades. Ela procura por um sistema que priorize a segurança e que ofereça suporte para voluntários que desejam participar de ações em diferentes locais.                                                                |
 
 ---
 
-## Persona 5: Fabiana Melo
-
-**Idade:** 37 anos  
-**Profissão:** Diretora de ONG  
-**Localização:** Salvador, Brasil  
-**Formação:** Graduação em Administração  
-**Objetivo:** Ampliar a visibilidade e o impacto das ações da sua ONG
-
-### Descrição
-Fabiana é a diretora de uma ONG que trabalha com projetos de inclusão social e sustentabilidade em Salvador. Ela está constantemente buscando maneiras de ampliar o alcance das ações de sua organização, mobilizando mais voluntários e atraindo novos patrocinadores. Ela precisa de uma plataforma que ajude a gerenciar e divulgar as iniciativas da ONG.
-
-### Dores
-Fabiana enfrenta desafios para conseguir visibilidade para as ações da ONG e para captar recursos suficientes. Ela também lida com a falta de voluntários qualificados e comprometidos, o que dificulta a realização de alguns projetos.
-
-### Expectativas
-Fabiana espera que a plataforma ofereça uma interface intuitiva para a criação e divulgação de eventos, além de ferramentas que facilitem a gestão de voluntários e recursos. Ela busca uma forma eficaz de conectar sua ONG a patrocinadores e de aumentar o impacto de suas ações.
+| ![Imagem da Persona](URL_DA_IMAGEM) | **Nome:** Fabiana Melo  <br> **Idade:** 37 anos  <br> **Profissão:** Diretora de ONG  <br> **Localização:** Salvador, Brasil  <br> **Formação:** Graduação em Administração  <br> **Objetivo:** Ampliar a visibilidade e o impacto das ações da sua ONG |
+|-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Descrição**                       | Fabiana é a diretora de uma ONG que trabalha com projetos de inclusão social e sustentabilidade em Salvador. Ela está constantemente buscando maneiras de ampliar o alcance das ações de sua organização, mobilizando mais voluntários e atraindo novos patrocinadores. Ela precisa de uma plataforma que ajude a gerenciar e divulgar as iniciativas da ONG.          |
+| **Dores**                           | Fabiana enfrenta desafios para conseguir visibilidade para as ações da ONG e para captar recursos suficientes. Ela também lida com a falta de voluntários qualificados e comprometidos, o que dificulta a realização de alguns projetos.                                                                                                                                   |
+| **Expectativas**                    | Fabiana espera que a plataforma ofereça uma interface intuitiva para a criação e divulgação de eventos, além de ferramentas que facilitem a gestão de voluntários e recursos. Ela busca uma forma eficaz de conectar sua ONG a patrocinadores e de aumentar o impacto de suas ações.                                                                                 |
 
 ---
 
-## Persona 6: Lucas Santana
-
-**Idade:** 29 anos  
-**Profissão:** Desenvolvedor de Software  
-**Localização:** Florianópolis, Brasil  
-**Formação:** Autodidata em Programação  
-**Objetivo:** Conectar-se com pessoas que compartilham dos mesmos interesses e ajudar em causas ambientais
-
-### Descrição
-Lucas é aquele cara que curte tecnologia e natureza. Ele passa os dias codando em casa, mas sempre arruma um tempinho para fazer trilhas ou dar uma volta na praia. A cabeça dele está sempre pensando em como pode usar suas habilidades para ajudar o planeta, e ele tá afim de encontrar uma galera que pense como ele.
-
-### Dores
-Lucas até já achou alguns eventos bacanas, mas tudo parece meio desorganizado ou difícil de acompanhar. Ele fica frustrado quando não consegue encontrar algo que se encaixe na sua rotina ou que faça ele se sentir realmente útil.
-
-### Expectativas
-Ele espera uma plataforma onde possa descobrir eventos voltados para a proteção do meio ambiente, que sejam bem estruturados e que ele possa encaixar entre um código e outro. Se rolar a oportunidade de conhecer pessoas que também curtem essas causas, melhor ainda!
+| ![Imagem da Persona](URL_DA_IMAGEM) | **Nome:** Lucas Santana  <br> **Idade:** 29 anos  <br> **Profissão:** Desenvolvedor de Software  <br> **Localização:** Florianópolis, Brasil  <br> **Formação:** Autodidata em Programação  <br> **Objetivo:** Conectar-se com pessoas que compartilham dos mesmos interesses e ajudar em causas ambientais |
+|-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Descrição**                       | Lucas é aquele cara que curte tecnologia e natureza. Ele passa os dias codando em casa, mas sempre arruma um tempinho para fazer trilhas ou dar uma volta na praia. A cabeça dele está sempre pensando em como pode usar suas habilidades para ajudar o planeta, e ele tá afim de encontrar uma galera que pense como ele.                                                   |
+| **Dores**                           | Lucas até já achou alguns eventos bacanas, mas tudo parece meio desorganizado ou difícil de acompanhar. Ele fica frustrado quando não consegue encontrar algo que se encaixe na sua rotina ou que faça ele se sentir realmente útil.                                                                                                                                |
+| **Expectativas**                    | Ele espera uma plataforma onde possa descobrir eventos voltados para a proteção do meio ambiente, que sejam bem estruturados e que ele possa encaixar entre um código e outro. Se rolar a oportunidade de conhecer pessoas que também curtem essas causas, melhor ainda!                                                                                             |
 
 Identifique, em torno de, 5 personas. Para cada persona, lembre-se de descrever suas angústicas, frustrações e expectativas de vida relacionadas ao problema. Além disso, defina uma "aparência" para a persona. Para isso, você poderá utilizar sites como [https://this-person-does-not-exist.com/pt#google_vignette](https://this-person-does-not-exist.com/pt) ou https://thispersondoesnotexist.com/ 
 
