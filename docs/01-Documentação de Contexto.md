@@ -5,16 +5,14 @@ No cenário global atual, onde a busca por soluções sustentáveis e o compromi
 É necessário realizar a gravação do Vídeo de 2 minutos sobre o problema e a solução proposta pela nossa equipe.
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
+No mundo atual, há um crescente desejo e necessidade de impacto positivo e de participação em ações sociais que possam contribuir para a construção de uma sociedade mais justa e sustentável. No entanto, muitos indivíduos e organizações que desejam se envolver em atividades voluntárias enfrentam uma série de desafios. A falta de uma plataforma centralizada e acessível, que permita a conexão direta entre aqueles que querem fazer a diferença e as iniciativas que precisam de apoio, resulta em uma baixa mobilização e subutilização de recursos humanos e materiais.
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+Por outro lado, diversas instituições que realizam ações sociais frequentemente têm dificuldade em encontrar voluntários comprometidos e recursos suficientes para implementar seus projetos. Este cenário gera uma desconexão entre as intenções e a capacidade de execução de ações que poderiam ter um impacto significativo na sociedade. A ausência de uma rede eficiente que centralize e organize essas oportunidades de voluntariado e patrocínio faz com que muitas iniciativas importantes acabem não saindo do papel ou tenham um alcance limitado.
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+O contexto atual, marcado por uma conscientização crescente sobre questões sociais e ambientais, também destaca a necessidade urgente de soluções que possam apoiar os 17 Objetivos de Desenvolvimento Sustentável (ODS) estabelecidos pela ONU. As ações locais e globais, que poderiam contribuir para esses objetivos, muitas vezes carecem de visibilidade e apoio, dificultando o avanço das metas globais de sustentabilidade.
+
+Assim, o problema central é a falta de uma infraestrutura digital que possa conectar de forma eficaz voluntários, organizadores de eventos e patrocinadores em torno de ações sociais alinhadas aos ODS. A superação dessa barreira é essencial para maximizar o impacto positivo que essas iniciativas podem ter na sociedade, promovendo uma participação mais ampla e eficiente em causas que realmente importam.
 
 ## Objetivos
 
