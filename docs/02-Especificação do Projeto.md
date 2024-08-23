@@ -76,12 +76,24 @@ Lembre-se que você deve ser enumerar e descrever precisamente e personalizada t
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+## Histórias de Usuários
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Ana Clara  | Uma forma de identificar se uma agência é realmente confiável           | Me sentir mais segura ao contratar seus serviços               |
-|Ana Clara       | Ter um mecanismo eficiente e rápido de comunicação                 | Que eu possa sanar todas as minhas dúvidas rapidamente |
+Com base na análise das personas, foram identificadas as seguintes histórias de usuários:
+
+| EU COMO... `PERSONA`         | QUERO/PRECISO ... `FUNCIONALIDADE`                             | PARA ... `MOTIVO/VALOR`                                |
+|------------------------------|---------------------------------------------------------------|--------------------------------------------------------|
+| João Pedro Martins            | Um meio eficaz de reunir voluntários para eventos ambientais  | Conseguir realizar o mutirão de reflorestamento com sucesso e impacto |
+| João Pedro Martins            | Facilitar a busca por patrocinadores interessados             | Reduzir os custos do evento e garantir recursos suficientes |
+| Maria Luísa Ferreira          | Encontrar eventos alinhados com os ODS para patrocínio        | Reforçar a responsabilidade social da empresa e melhorar sua imagem pública |
+| Maria Luísa Ferreira          | Um sistema que permita o engajamento dos funcionários da empresa | Aumentar a participação dos colaboradores em ações voluntárias |
+| Carlos Alberto Silva          | Uma plataforma para divulgar palestras e workshops educativos | Ampliar o alcance dos meus projetos de inclusão social |
+| Carlos Alberto Silva          | Conectar com ONGs e instituições para suporte logístico       | Melhorar a qualidade e a viabilidade das ações realizadas |
+| Renata Costa                  | Encontrar eventos de voluntariado acessíveis e organizados    | Aplicar meus conhecimentos acadêmicos e ganhar experiência prática |
+| Renata Costa                  | Um meio de se conectar com outros voluntários e profissionais da área | Expandir minha rede de contatos e oportunidades na área humanitária |
+| Fabiana Melo                  | Atrair voluntários e patrocinadores para os projetos da ONG   | Aumentar o impacto social das ações realizadas pela ONG |
+| Fabiana Melo                  | Gerenciar e acompanhar o andamento dos eventos                | Garantir a eficiência e o sucesso das iniciativas da ONG |
+| Lucas Santana                 | Encontrar eventos que combinem tecnologia e meio ambiente     | Contribuir com minhas habilidades técnicas para causas que importam |
+| Lucas Santana                 | Uma plataforma que permita organizar eventos com foco em educação ambiental | Integrar minha paixão por tecnologia com ações de impacto ambiental |
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
