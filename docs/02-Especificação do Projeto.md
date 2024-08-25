@@ -112,16 +112,39 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| A aplicação deve permitir que o usuário avalie uma agência de intercâmbio com base na sua experiência| ALTA | 
-|RF-002| A aplicação deve permitir que o usuário inclua comentários ao fazer uma avaliação de uma agência de intercâmbio    | ALTA |
-|RF-003| A aplicação deve permitir que o usuário consulte todas as agências de intercâmbio cadastradas ordenando-as com base em suas notas | ALTA |
+|RF-01| A aplicação deve permitir que o usuário se cadastre.joao | ALTA | 
+|RF-02| A aplicação deve permitir que o usuário realize login.    | ALTA |
+|RF-03| A aplicação deve permitir criar diferentes tipos de usuários (instituição, pessoal). maria luisa | ALTA |
+|RF-04| A aplicação deve permitir que o usuário edite seu perfil. | ALTA |
+|RF-05| A aplicação deve permitir que o usuário cadastre e gerencie eventos.joao | ALTA |
+|RF-06| A aplicação deve permitir que os usuários entrem em eventos criados. Carlos ALTA | ALTA |
+|RF-07| A aplicação deve gerar relatórios de participação nos eventos e impacto social. maria luisa | ALTA |
+|RF-08| A aplicação deve enviar notificações sobre eventos próximos. | ALTA |
+|RF-09| A aplicação deve permitir patrocinadores em eventos.joao| ALTA |
+|RF-10| A aplicação deve permitir criar diferentes tipos de usuários (instituição, pessoal). maria luisa | ALTA |
+|RF-11| A aplicação deve permitir a personalização de temas ou layout pelos usuários. | MÉDIA |
+|RF-12| A aplicação deve permitir que usuários forneçam feedback ou avaliem os eventos após a participação. | MÉDIA |
+|RF-13| A aplicação deve permitir integração com calendários (Google Calendar, Outlook, etc.) para eventos.| MÉDIA |
+|RF-14| A aplicação deve possuir uma central de ajuda e FAQs com tutoriais e documentação. | BAIXA |
+|RF-15| A aplicação deve coletar feedback constante dos usuários para melhoria contínua. | BAIXA |
+|RF-16| A aplicação deve permitir que organizadores incluam patrocínios ou parcerias em eventos para gerar receita adicional. | BAIXA |
+
+
+ 
+//RF-013	A aplicação deve implementar autenticação de dois fatores (2FA) para segurança adicional.	ALTA
+//RF-014	A aplicação deve possuir um painel de analytics com estatísticas detalhadas para administradores e organizadores.	ALTA
+//RF-018	A aplicação deve incluir um sistema de mensagens para comunicação entre usuários e organizadores de eventos.	MÉDIA
+//RF-012	A aplicação deve permitir o compartilhamento de eventos em redes sociais.	BAIXA
+ 
+RNF-01 A aplicação deve exigir senha de no mínimo 8 caracteres, com letras maiúsculas, minúsculas, números e caracteres especiais.
+RNF-02 A aplicação deve permitir a criação de eventos apenas com pelo menos 5 dias de antecedência.
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| A aplicação deve ser responsiva | MÉDIA | 
-|RNF-002| A aplicação deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-01| A aplicação deve exigir senha de no mínimo 8 caracteres, com letras maiúsculas, minúsculas, números e caracteres especiais. | MÉDIA | 
+|RNF-02| A aplicação deve permitir a criação de eventos apenas com pelo menos 5 dias de antecedência. |  BAIXA | 
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
@@ -144,9 +167,9 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
+|01| O projeto deve ser entregue até o final do semestre letivo, com prazo máximo de (00/00/2024), sem possibilidade de extensão |
+|02| As tecnologias utilizadas no desenvolvimento da aplicação serão: C# para o backend responsável pela gestão das reservas, MySQL para o armazenamento dos dados das salas e reservas, e JavaScript, CSS, HTML e Bootstrap para a interface do usuário.    |
+|03| A aplicação deve estar operacional no servidor da Microsoft.   |
 
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
 
