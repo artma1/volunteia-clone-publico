@@ -13,7 +13,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Artur Maciel de Assis Pinto
 * Sharon Steicy Dos Santos Vasquez
 * Gustavo Gonçalve da Paz
-* Nome completo do aluno 4
+* João Victor Kalil de Almeida Lapa
 
 ## Orientador
 
