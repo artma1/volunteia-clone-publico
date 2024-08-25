@@ -1,6 +1,6 @@
 # Introdução
 
-No cenário global atual, onde a busca por soluções sustentáveis e o compromisso com o bem-estar social se tornam cada vez mais urgentes, surge a necessidade de plataformas que possam catalisar essas mudanças. Este projeto visa desenvolver uma aplicação interativa que conecte pessoas e instituições dispostas a realizar e participar de ações voluntárias que promovam impactos positivos na sociedade. Inspirada pelos 17 Objetivos de Desenvolvimento Sustentável (ODS) da ONU, no Brasil, esta plataforma será um espaço onde indivíduos e organizações poderão criar, apoiar e participar de eventos e ações que contribuam para um mundo mais justo e sustentável. Com a possibilidade de qualquer pessoa ou instituição se envolver em causas que lhe são caras, a plataforma promete ser um ponto de encontro essencial para aqueles que desejam contribuir para um mundo melhor, um evento de cada vez. (FONTE: https://brasil.un.org/pt-br/sdgs )
+No cenário global atual, onde a busca por soluções sustentáveis e o compromisso com o bem-estar social se tornam cada vez mais urgentes, surge a necessidade de plataformas que possam catalisar essas mudanças. Este projeto visa desenvolver uma aplicação interativa que conecte pessoas e instituições dispostas a realizar e participar de ações voluntárias que promovam impactos positivos na sociedade. Inspirada pelos 17 Objetivos de Desenvolvimento Sustentável (ODS) da ONU [^1], no Brasil, esta plataforma será um espaço onde indivíduos e organizações poderão criar, apoiar e participar de eventos e ações que contribuam para um mundo mais justo e sustentável. Com a possibilidade de qualquer pessoa ou instituição se envolver em causas que lhe são caras, a plataforma promete ser um ponto de encontro essencial para aqueles que desejam contribuir para um mundo melhor, um evento de cada vez. 
 
 ## Problema
 
@@ -22,14 +22,13 @@ O objetivo geral deste projeto é desenvolver uma plataforma digital capaz de co
 4.	Fornecer mais visibilidade a problemas e pessoas que precisam de ajuda: A plataforma também terá como objetivo aumentar a visibilidade de situações críticas e de pessoas que necessitam de apoio, promovendo campanhas e eventos que possam direcionar recursos e voluntários para essas causas. Isso permitirá uma resposta mais rápida e eficaz a necessidades emergentes, garantindo que as ações de ajuda cheguem a quem realmente precisa.
 Por meio desses objetivos, o projeto visa não apenas resolver o problema da desconexão entre indivíduos, instituições e causas sociais, mas também potencializar o impacto dessas ações, contribuindo para um mundo mais justo e sustentável.
 
-
 ## Justificativa
 
 A crescente complexidade e interconexão dos desafios sociais e ambientais enfrentados pela sociedade contemporânea exigem soluções inovadoras e colaborativas que promovam mudanças significativas e duradouras. Problemas como desigualdade social, degradação ambiental, falta de acesso a educação de qualidade e saúde são questões que afetam comunidades em todo o mundo e requerem esforços conjuntos de indivíduos, organizações e governos para serem efetivamente abordados.
 
 A motivação para abordar este tema decorre da observação de que, apesar do aumento do interesse em ações voluntárias e no engajamento em causas sociais, ainda existe uma lacuna significativa na facilitação e na organização dessas iniciativas. A ausência de uma plataforma centralizada e unificada que conecte diretamente quem precisa de ajuda com quem deseja contribuir resulta em oportunidades desperdiçadas e em um impacto limitado das ações voluntárias. Portanto, torna-se essencial desenvolver uma solução interativa que potencialize a colaboração entre os diferentes atores envolvidos, tornando essa cooperação mais eficiente, abrangente e coordenada.
 
-Segundo o relatório da Organização das Nações Unidas (ONU) sobre os Objetivos de Desenvolvimento Sustentável (ODS) de 2022, muitos países ainda estão longe de alcançar as metas estabelecidas, especialmente devido aos impactos socioeconômicos causados pela pandemia de COVID-19 e pelas mudanças climáticas aceleradas. Este cenário destaca a necessidade urgente de mecanismos que facilitem e potenciem a cooperação entre diferentes atores sociais comprometidos com a promoção de um desenvolvimento sustentável e inclusivo.  (FONTE:  https://www.unep.org/pt-br/resources/relatorios/relatorio-global-de-desenvolvimento-sustentavel-2022 )
+Segundo o relatório da Organização das Nações Unidas (ONU) sobre os Objetivos de Desenvolvimento Sustentável (ODS) de 2022, muitos países ainda estão longe de alcançar as metas estabelecidas, especialmente devido aos impactos socioeconômicos causados pela pandemia de COVID-19 e pelas mudanças climáticas aceleradas. Este cenário destaca a necessidade urgente de mecanismos que facilitem e potenciem a cooperação entre diferentes atores sociais comprometidos com a promoção de um desenvolvimento sustentável e inclusivo.[^2]
 
 A criação desta aplicação representa uma resposta estratégica e necessária aos desafios sociais e ambientais atuais. Ao facilitar e potencializar a colaboração entre diversos atores sociais, a plataforma busca não apenas resolver problemas imediatos, mas também promover um modelo sustentável de engajamento comunitário e responsabilidade coletiva. Este projeto, portanto, não é apenas uma iniciativa tecnológica, mas um compromisso com a construção de um futuro mais justo, solidário e sustentável para todos.
 
@@ -50,3 +49,9 @@ Empresas de diversos setores que desejam promover sua responsabilidade social co
 Grupos informais e comunidades locais que buscam apoio para resolver problemas específicos ou implementar iniciativas que beneficiem diretamente suas localidades. Esses usuários podem ter menos experiência com tecnologia, mas estão profundamente enraizados em suas comunidades e desejam utilizar a plataforma para atrair voluntários e recursos para suas causas.
 
 É necessário realizar a gravação do Vídeo de 2 minutos sobre o problema e a solução proposta pela nossa equipe.
+
+#### Referências
+[^1]: ONU. **Objetivos de Desenvolvimento Sustentável | As Nações Unidas no Brasil**. Disponível em: <https://brasil.un.org/pt-br/sdgs>. *Acesso em: 20 ago. 2024*.
+
+[^2]: ENVIRONMENT, U. N. **Relatório Global de Desenvolvimento Sustentável 2022**. Disponível em: <https://www.unep.org/pt-br/resources/relatorios/relatorio-global-de-desenvolvimento-sustentavel-2022>. *Acesso em: 20 ago. 2024*.
+
