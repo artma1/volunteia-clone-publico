@@ -1,6 +1,6 @@
 # Introdução
 
-No cenário global atual, onde a busca por soluções sustentáveis e o compromisso com o bem-estar social se tornam cada vez mais urgentes, surge a necessidade de plataformas que possam catalisar essas mudanças. Este projeto visa desenvolver uma aplicação interativa que conecte pessoas e instituições dispostas a realizar e participar de ações voluntárias que promovam impactos positivos na sociedade. Inspirada pelos 17 Objetivos de Desenvolvimento Sustentável (ODS) da ONU, no Brasil, esta plataforma será um espaço onde indivíduos e organizações poderão criar, apoiar e participar de eventos e ações que contribuam para um mundo mais justo e sustentável. Com a possibilidade de qualquer pessoa ou instituição se envolver em causas que lhe são caras, a plataforma promete ser um ponto de encontro essencial para aqueles que desejam contribuir para um mundo melhor, um evento de cada vez.
+No cenário global atual, onde a busca por soluções sustentáveis e o compromisso com o bem-estar social se tornam cada vez mais urgentes, surge a necessidade de plataformas que possam catalisar essas mudanças. Este projeto visa desenvolver uma aplicação interativa que conecte pessoas e instituições dispostas a realizar e participar de ações voluntárias que promovam impactos positivos na sociedade. Inspirada pelos 17 Objetivos de Desenvolvimento Sustentável (ODS) da ONU, no Brasil, esta plataforma será um espaço onde indivíduos e organizações poderão criar, apoiar e participar de eventos e ações que contribuam para um mundo mais justo e sustentável. Com a possibilidade de qualquer pessoa ou instituição se envolver em causas que lhe são caras, a plataforma promete ser um ponto de encontro essencial para aqueles que desejam contribuir para um mundo melhor, um evento de cada vez. (FONTE: https://brasil.un.org/pt-br/sdgs )
 
 ## Problema
 
@@ -25,12 +25,14 @@ Por meio desses objetivos, o projeto visa não apenas resolver o problema da des
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+A crescente complexidade e interconexão dos desafios sociais e ambientais enfrentados pela sociedade contemporânea exigem soluções inovadoras e colaborativas que promovam mudanças significativas e duradouras. Problemas como desigualdade social, degradação ambiental, falta de acesso a educação de qualidade e saúde são questões que afetam comunidades em todo o mundo e requerem esforços conjuntos de indivíduos, organizações e governos para serem efetivamente abordados.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo. Ou, o grupo poderá consultar e justificar o impacto do problema para o público-alvo por meio de pesquisas em outras fontes. Neste caso, é essencial que todos os dados apresentados estejam acompanhados de suas fontes (conforme padrão ABNT).
+A motivação para abordar este tema decorre da observação de que, apesar do aumento do interesse em ações voluntárias e no engajamento em causas sociais, ainda existe uma lacuna significativa na facilitação e na organização dessas iniciativas. A ausência de uma plataforma centralizada e unificada que conecte diretamente quem precisa de ajuda com quem deseja contribuir resulta em oportunidades desperdiçadas e em um impacto limitado das ações voluntárias. Portanto, torna-se essencial desenvolver uma solução interativa que potencialize a colaboração entre os diferentes atores envolvidos, tornando essa cooperação mais eficiente, abrangente e coordenada.
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Segundo o relatório da Organização das Nações Unidas (ONU) sobre os Objetivos de Desenvolvimento Sustentável (ODS) de 2022, muitos países ainda estão longe de alcançar as metas estabelecidas, especialmente devido aos impactos socioeconômicos causados pela pandemia de COVID-19 e pelas mudanças climáticas aceleradas. Este cenário destaca a necessidade urgente de mecanismos que facilitem e potenciem a cooperação entre diferentes atores sociais comprometidos com a promoção de um desenvolvimento sustentável e inclusivo.  (FONTE:  https://www.unep.org/pt-br/resources/relatorios/relatorio-global-de-desenvolvimento-sustentavel-2022 )
+
+A criação desta aplicação representa uma resposta estratégica e necessária aos desafios sociais e ambientais atuais. Ao facilitar e potencializar a colaboração entre diversos atores sociais, a plataforma busca não apenas resolver problemas imediatos, mas também promover um modelo sustentável de engajamento comunitário e responsabilidade coletiva. Este projeto, portanto, não é apenas uma iniciativa tecnológica, mas um compromisso com a construção de um futuro mais justo, solidário e sustentável para todos.
+
 
 ## Público-Alvo
 
