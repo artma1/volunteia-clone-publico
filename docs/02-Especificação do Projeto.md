@@ -128,12 +128,16 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-14| A aplicação deve possuir uma central de ajuda e FAQs com tutoriais e documentação. | BAIXA |
 |RF-15| A aplicação deve coletar feedback constante dos usuários para melhoria contínua. | BAIXA |
 |RF-16| A aplicação deve permitir que organizadores incluam patrocínios ou parcerias em eventos para gerar receita adicional. | BAIXA |
+|RF-17| A aplicação deve permitir o compartilhamento de eventos em redes sociais.| BAIXA |
 
 
  
 //RF-013	A aplicação deve implementar autenticação de dois fatores (2FA) para segurança adicional.	ALTA
+
 //RF-014	A aplicação deve possuir um painel de analytics com estatísticas detalhadas para administradores e organizadores.	ALTA
+
 //RF-018	A aplicação deve incluir um sistema de mensagens para comunicação entre usuários e organizadores de eventos.	MÉDIA
+
 //RF-012	A aplicação deve permitir o compartilhamento de eventos em redes sociais.	BAIXA
  
 RNF-01 A aplicação deve exigir senha de no mínimo 8 caracteres, com letras maiúsculas, minúsculas, números e caracteres especiais.
