@@ -149,6 +149,7 @@ RNF-02 A aplicação deve permitir a criação de eventos apenas com pelo menos 
 |-------|-------------------------|----|
 |RNF-01| A aplicação deve exigir senha de no mínimo 8 caracteres, com letras maiúsculas, minúsculas, números e caracteres especiais. | MÉDIA | 
 |RNF-02| A aplicação deve permitir a criação de eventos apenas com pelo menos 5 dias de antecedência. |  BAIXA | 
+|RNF-03| A aplicação deve permitir criação de eventos apenas por usuários criados há mais de 7 dias. |  BAIXA | 
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
