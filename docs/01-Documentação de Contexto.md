@@ -2,8 +2,6 @@
 
 No cenário global atual, onde a busca por soluções sustentáveis e o compromisso com o bem-estar social se tornam cada vez mais urgentes, surge a necessidade de plataformas que possam catalisar essas mudanças. Este projeto visa desenvolver uma aplicação interativa que conecte pessoas e instituições dispostas a realizar e participar de ações voluntárias que promovam impactos positivos na sociedade. Inspirada pelos 17 Objetivos de Desenvolvimento Sustentável (ODS) da ONU, no Brasil, esta plataforma será um espaço onde indivíduos e organizações poderão criar, apoiar e participar de eventos e ações que contribuam para um mundo mais justo e sustentável. Com a possibilidade de qualquer pessoa ou instituição se envolver em causas que lhe são caras, a plataforma promete ser um ponto de encontro essencial para aqueles que desejam contribuir para um mundo melhor, um evento de cada vez.
 
-É necessário realizar a gravação do Vídeo de 2 minutos sobre o problema e a solução proposta pela nossa equipe.
-
 ## Problema
 
 No mundo atual, há um crescente desejo e necessidade de impacto positivo e de participação em ações sociais que possam contribuir para a construção de uma sociedade mais justa e sustentável. No entanto, muitos indivíduos e organizações que desejam se envolver em atividades voluntárias enfrentam uma série de desafios. A falta de uma plataforma centralizada e acessível, que permita a conexão direta entre aqueles que querem fazer a diferença e as iniciativas que precisam de apoio, resulta em uma baixa mobilização e subutilização de recursos humanos e materiais.
@@ -16,12 +14,13 @@ Assim, o problema central é a falta de uma infraestrutura digital que possa con
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O objetivo geral deste projeto é desenvolver uma plataforma digital capaz de conectar indivíduos e instituições a eventos de voluntariado focados em causas sustentáveis, alinhadas com os 17 Objetivos de Desenvolvimento Sustentável (ODS) da ONU. Esta plataforma visa facilitar a mobilização social, permitindo que ações voluntárias alcancem um maior número de pessoas e instituições, além de otimizar a captação de recursos e apoio para essas iniciativas. Em específico, temos como objetivo:
+1.	Aumentar o alcance de eventos para causas sociais e ambientais importantes: A plataforma permitirá que eventos relacionados a causas essenciais, como combate à pobreza, educação de qualidade, igualdade de gênero, entre outros, sejam amplamente divulgados e acessíveis a um público mais amplo. Isso garantirá que mais pessoas possam participar e contribuir para essas ações.
+2.	Conectar ONGs e instituições a voluntários e patrocinadores dispostos a ajudar: Uma das principais funcionalidades da plataforma será a criação de um ambiente em que organizações não-governamentais ou não e outras instituições possam facilmente encontrar voluntários engajados e patrocinadores interessados em financiar e apoiar suas iniciativas. Esta conexão será essencial para garantir que as ações sociais tenham os recursos humanos e materiais necessários para seu sucesso.
+3.	Aumentar os impactos positivos dessas ações na sociedade: Ao facilitar a organização e a participação em eventos de voluntariado, a plataforma contribuirá para a ampliação do impacto positivo dessas ações na sociedade. Isso incluirá a promoção de mudanças sociais significativas, o apoio a comunidades carentes e a promoção de práticas sustentáveis.
+4.	Fornecer mais visibilidade a situações e pessoas que precisam de ajuda: A plataforma também terá como objetivo aumentar a visibilidade de situações críticas e de pessoas que necessitam de apoio, promovendo campanhas e eventos que possam direcionar recursos e voluntários para essas causas. Isso permitirá uma resposta mais rápida e eficaz a necessidades emergentes, garantindo que as ações de ajuda cheguem a quem realmente precisa.
+Por meio desses objetivos, o projeto visa não apenas resolver o problema da desconexão entre indivíduos, instituições e causas sociais, mas também potencializar o impacto dessas ações, contribuindo para um mundo mais justo e sustentável.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
 
@@ -41,3 +40,5 @@ Descreva quem serão as pessoas que usarão a sua aplicação indicando os difer
 > - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
 > - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
 > - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+
+É necessário realizar a gravação do Vídeo de 2 minutos sobre o problema e a solução proposta pela nossa equipe.
