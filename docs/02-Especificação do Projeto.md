@@ -87,7 +87,6 @@ Com base na análise das personas, foram identificadas as seguintes histórias d
 | Maria Luísa Ferreira          | Encontrar eventos alinhados com os ODS para patrocínio        | Reforçar a responsabilidade social da empresa e melhorar sua imagem pública |
 | Maria Luísa Ferreira          | Um sistema que permita o engajamento dos funcionários da empresa | Aumentar a participação dos colaboradores em ações voluntárias |
 | Carlos Alberto Silva          | Uma plataforma facil de usar com instruções detalhadas | Participar de ações voluntárias |
-
 | Renata Costa                  | Encontrar eventos de voluntariado acessíveis e organizados    | Aplicar meus conhecimentos acadêmicos e ganhar experiência prática |
 | Renata Costa                  | Um meio de se organizar fornecendo eventos com notificações | Para que eu possa organizar minha agenda e alinha-lá com minha rotina |
 | Fabiana Melo                  | Gostaria de compartilhar nas redes sociais eventos voluntários da ONG   | Para mostrar o trabalho realizadas pela ONG |
