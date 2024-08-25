@@ -82,7 +82,7 @@ Com base na análise das personas, foram identificadas as seguintes histórias d
 
 | EU COMO... `PERSONA`         | QUERO/PRECISO ... `FUNCIONALIDADE`                             | PARA ... `MOTIVO/VALOR`                                |
 |------------------------------|---------------------------------------------------------------|--------------------------------------------------------|
-| João Pedro Martins            | Cadastrar em uma plataforma e reunir voluntários              | Conseguir realizar o mutirão de reflorestamento com sucesso e impacto |
+| João Pedro Martins            | Cadastrar, logar em uma plataforma e reunir voluntários       | Conseguir realizar o mutirão de reflorestamento com sucesso e impacto |
 | João Pedro Martins            | Facilitar a busca por patrocinadores interessados             | Reduzir os custos do evento e garantir recursos suficientes |
 | Maria Luísa Ferreira          | Encontrar eventos alinhados com os ODS para patrocínio        | Reforçar a responsabilidade social da empresa e melhorar sua imagem pública |
 | Maria Luísa Ferreira          | Um sistema que permita o engajamento dos funcionários da empresa | Aumentar a participação dos colaboradores em ações voluntárias |
