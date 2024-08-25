@@ -25,11 +25,11 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ---
 
-| ![download (2)](https://github.com/user-attachments/assets/3c534213-cd6f-4cf2-94ff-bbca2ef99973) | **Nome:** Carlos Alberto Silva  <br> **Idade:** 42 anos  <br> **Profissão:** Professor Universitário  <br> **Localização:** Belo Horizonte, Brasil  <br> **Formação:** Doutorado em Sociologia  <br> **Objetivo:** Promover e participar de eventos educacionais voltados para a inclusão social |
+| ![download (2)](https://github.com/user-attachments/assets/3c534213-cd6f-4cf2-94ff-bbca2ef99973) | **Nome:** Carlos Alberto Silva  <br> **Idade:** 62 anos  <br> **Profissão:** Jardineiro  <br> **Localização:** Belo Horizonte, Brasil  <br> **Formação:** Ensino Fundamental  <br> **Objetivo:** Promover e participar de eventos educacionais voltados para a inclusão social |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Descrição**                       | Carlos Alberto é um professor universitário apaixonado por ensinar e por promover a inclusão social através da educação. Ele frequentemente organiza palestras, workshops e outros eventos educativos voltados para comunidades carentes e grupos marginalizados. Ele está à procura de uma plataforma que facilite o planejamento e a realização dessas ações. |
-| **Dores**                           | Carlos enfrenta o desafio de divulgar seus eventos e de atrair tanto voluntários quanto participantes. Ele também tem dificuldades para encontrar parcerias e patrocínios que ajudem a viabilizar seus projetos.                                                                                                                                                          |
-| **Expectativas**                    | Carlos espera encontrar uma plataforma que ofereça recursos para a organização de eventos educacionais e que facilite a captação de voluntários e patrocinadores. Ele deseja que a plataforma ajude a aumentar o alcance de seus eventos, promovendo a inclusão e a educação para todos.   (Modelar pois temos uma duplicidade em interesses, Talvez usarmos a conexão de ONG da historia de usuarios).                                                                              |
+| **Descrição**                       | Carlos Alberto é um profissional de jardinagem há 40 anos, apaixonado por natureza, ele ama poder ajudar o proxímo. Sempre teve o desejo de fazer o voluntario voltado para o meio ambiente. |
+| **Dores**                           | Carlos frequentemente enfrenta dificuldades para encontrar informações ou tutoriais que sejam simples e compreensíveis, o que faz com que ele se sinta excluído do mundo digital.  |
+| **Expectativas**                    | Carlos espera que qualquer tecnologia ou ferramenta seja fácil de usar e ofereça instruções claras e diretas para voluntariados.    |
 
 ---
 
@@ -86,14 +86,15 @@ Com base na análise das personas, foram identificadas as seguintes histórias d
 | João Pedro Martins            | Cadastrar eventos de voluntariados para facilitar a busca por patrocinadores interessados e ca            | Reduzir os custos do evento e garantir recursos suficientes |
 | Maria Luísa Ferreira          | Encontrar eventos alinhados com os ODS para patrocínio        | Reforçar a responsabilidade social da empresa e melhorar sua imagem pública |
 | Maria Luísa Ferreira          | Um sistema que permita o engajamento dos funcionários da empresa | Aumentar a participação dos colaboradores em ações voluntárias |
-| Carlos Alberto Silva          | Uma plataforma para divulgar palestras e workshops educativos | Ampliar o alcance dos meus projetos de inclusão social |
-| Carlos Alberto Silva          | Conectar com ONGs e instituições para suporte logístico       | Melhorar a qualidade e a viabilidade das ações realizadas |
+| Carlos Alberto Silva          | Uma plataforma facil de usar com instruções detalhadas | Participar de ações voluntárias |
+
 | Renata Costa                  | Encontrar eventos de voluntariado acessíveis e organizados    | Aplicar meus conhecimentos acadêmicos e ganhar experiência prática |
 | Renata Costa                  | Um meio de se organizar fornecendo eventos com notificações | Para que eu possa organizar minha agenda e alinha-lá com minha rotina |
-| Fabiana Melo                  | Atrair voluntários e patrocinadores para os projetos da ONG   | Aumentar o impacto social das ações realizadas pela ONG |
-| Fabiana Melo                  | Gerenciar e acompanhar o andamento dos eventos                | Garantir a eficiência e o sucesso das iniciativas da ONG |
+| Fabiana Melo                  | Gostaria de compartilhar nas redes sociais eventos voluntários da ONG   | Para mostrar o trabalho realizadas pela ONG |
+| Fabiana Melo                  | Gerenciar e acompanhar o andamento dos eventos | Garantir a eficiência e o sucesso das iniciativas da ONG |
 | Lucas Santana                 | Encontrar eventos que combinem tecnologia e meio ambiente     | Contribuir com minhas habilidades técnicas para causas que importam |
 | Lucas Santana                 | Uma plataforma que permita personalizar e editar meu perfil | Para que eu possa ter mais afinidade e ter uma experiência mais confortável com o sistema |
+| Lucas Santana                 | Fornecer feedback e pontos de melhoria para os organizadores do evento | Para contribuir com a evolução e a eficiência dos eventos promovidos |
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
@@ -112,23 +113,23 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-01| A aplicação deve permitir que o usuário se cadastre. joao | ALTA | 
-|RF-02| A aplicação deve permitir que o usuário realize login. joao    | ALTA |
-|RF-03| A aplicação deve permitir criar diferentes tipos de usuários (instituição, pessoal). maria luisa | ALTA |
-|RF-04| A aplicação deve permitir que o usuário edite seu perfil. lucas | ALTA |
-|RF-05| A aplicação deve permitir que o usuário cadastre e gerencie eventos.joao | ALTA |
-|RF-06| A aplicação deve permitir que os usuários entrem em eventos criados. Carlos ALTA | ALTA |
-|RF-07| A aplicação deve gerar relatórios de participação nos eventos e impacto social. maria luisa | ALTA |
-|RF-08| A aplicação deve enviar notificações sobre eventos próximos. renata | ALTA |
-|RF-09| A aplicação deve permitir patrocinadores em eventos.joao| ALTA |
+|RF-01| A aplicação deve permitir que o usuário se cadastre. Joao | ALTA | 
+|RF-02| A aplicação deve permitir que o usuário realize login. Joao    | ALTA |
+|RF-03| A aplicação deve permitir criar diferentes tipos de usuários (instituição, pessoal). Maria Luisa | ALTA |
+|RF-04| A aplicação deve permitir que o usuário edite seu perfil. Lucas | ALTA |
+|RF-05| A aplicação deve permitir que o usuário cadastre e gerencie eventos. Joao | ALTA |
+|RF-06| A aplicação deve permitir que os usuários entrem em eventos criados. Carlos  | ALTA |
+|RF-07| A aplicação deve gerar relatórios de participação nos eventos e impacto social. Maria Luisa | ALTA |
+|RF-08| A aplicação deve enviar notificações sobre eventos próximos. Renata | ALTA |
+|RF-09| A aplicação deve permitir patrocinadores em eventos. Joao| ALTA |
 |RF-10|
-|RF-11| A aplicação deve permitir a personalização de temas ou layout pelos usuários. lucas | MÉDIA |
-|RF-12| A aplicação deve permitir que usuários forneçam feedback ou avaliem os eventos após a participação. | MÉDIA |
-|RF-13| A aplicação deve permitir integração com calendários (Google Calendar, Outlook, etc.) para eventos.| MÉDIA |
-|RF-14| A aplicação deve possuir uma central de ajuda e FAQs com tutoriais e documentação. | BAIXA |
-|RF-15| A aplicação deve coletar feedback constante dos usuários para melhoria contínua. | BAIXA |
-|RF-16| A aplicação deve permitir que organizadores incluam patrocínios ou parcerias em eventos para gerar receita adicional. | BAIXA |
-|RF-17| A aplicação deve permitir o compartilhamento de eventos em redes sociais.| BAIXA |
+|RF-11| A aplicação deve permitir a personalização de temas ou layout pelos usuários. Lucas | MÉDIA |
+|RF-12| A aplicação deve permitir que usuários forneçam feedback ou avaliem os eventos após a participação. Lucas | MÉDIA |
+|RF-13| 
+|RF-14| A aplicação deve possuir uma central de ajuda e FAQs com tutoriais e documentação. Carlos | BAIXA |
+|RF-15|
+|RF-16| 
+|RF-17| A aplicação deve permitir o compartilhamento de eventos em redes sociais. Fabiana | BAIXA |
 
 
  
@@ -139,6 +140,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 //RF-018	A aplicação deve incluir um sistema de mensagens para comunicação entre usuários e organizadores de eventos.	MÉDIA
 
 //RF-012	A aplicação deve permitir o compartilhamento de eventos em redes sociais.	BAIXA
+
+//RF-13 A aplicação deve permitir integração com calendários (Google Calendar, Outlook, etc.) para eventos.| MÉDIA |
+
+//RF-16 A aplicação deve permitir que organizadores incluam patrocínios ou parcerias em eventos para gerar receita adicional. | BAIXA |
  
 RNF-01 A aplicação deve exigir senha de no mínimo 8 caracteres, com letras maiúsculas, minúsculas, números e caracteres especiais.
 RNF-02 A aplicação deve permitir a criação de eventos apenas com pelo menos 5 dias de antecedência.
