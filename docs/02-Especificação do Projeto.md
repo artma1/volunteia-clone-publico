@@ -21,7 +21,7 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Descrição**                       | Maria Luísa trabalha em uma grande empresa multinacional, onde é responsável por desenvolver e implementar projetos de responsabilidade social. Ela está sempre à procura de eventos que estejam alinhados com os valores da empresa e que possam ser patrocinados para melhorar a imagem corporativa e contribuir para o bem-estar social.                |
 | **Dores**                           | Maria Luísa sente dificuldade em encontrar eventos que sejam transparentes e que realmente façam a diferença. Ela se preocupa com a reputação da empresa e quer garantir que os recursos sejam bem aplicados e que o patrocínio traga um impacto positivo.                                                                                                           |
-| **Expectativas**                    | Maria Luísa espera que a plataforma ofereça uma ampla variedade de eventos confiáveis, com informações detalhadas sobre as necessidades e o impacto esperado. Ela também procura por um sistema que facilite a comunicação entre patrocinadores e organizadores, além de relatórios que comprovem os resultados obtidos.                                          |
+| **Expectativas**                    | Maria Luísa espera que a plataforma ofereça uma ampla variedade de eventos confiáveis, com informações detalhadas sobre as necessidades e o impacto esperado. Ela também procura por um sistema que facilite a comunicação entre patrocinadores e organizadores, proporcionando a conscientização dos coloaboradores sobre a importância e os impactos dos ODS proposto pela ONU, além de relatórios que comprovem os resultados obtidos.                                          |
 
 ---
 
@@ -29,7 +29,7 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Descrição**                       | Carlos Alberto é um professor universitário apaixonado por ensinar e por promover a inclusão social através da educação. Ele frequentemente organiza palestras, workshops e outros eventos educativos voltados para comunidades carentes e grupos marginalizados. Ele está à procura de uma plataforma que facilite o planejamento e a realização dessas ações. |
 | **Dores**                           | Carlos enfrenta o desafio de divulgar seus eventos e de atrair tanto voluntários quanto participantes. Ele também tem dificuldades para encontrar parcerias e patrocínios que ajudem a viabilizar seus projetos.                                                                                                                                                          |
-| **Expectativas**                    | Carlos espera encontrar uma plataforma que ofereça recursos para a organização de eventos educacionais e que facilite a captação de voluntários e patrocinadores. Ele deseja que a plataforma ajude a aumentar o alcance de seus eventos, promovendo a inclusão e a educação para todos.                                                                                 |
+| **Expectativas**                    | Carlos espera encontrar uma plataforma que ofereça recursos para a organização de eventos educacionais e que facilite a captação de voluntários e patrocinadores. Ele deseja que a plataforma ajude a aumentar o alcance de seus eventos, promovendo a inclusão e a educação para todos.   (Modelar pois temos uma duplicidade em interesses, Talvez usarmos a conexão de ONG da historia de usuarios).                                                                              |
 
 ---
 
@@ -45,7 +45,7 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Descrição**                       | Fabiana é a diretora de uma ONG que trabalha com projetos de inclusão social e sustentabilidade em Salvador. Ela está constantemente buscando maneiras de ampliar o alcance das ações de sua organização, mobilizando mais voluntários e atraindo novos patrocinadores. Ela precisa de uma plataforma que ajude a gerenciar e divulgar as iniciativas da ONG.          |
 | **Dores**                           | Fabiana enfrenta desafios para conseguir visibilidade para as ações da ONG e para captar recursos suficientes. Ela também lida com a falta de voluntários qualificados e comprometidos, o que dificulta a realização de alguns projetos.                                                                                                                                   |
-| **Expectativas**                    | Fabiana espera que a plataforma ofereça uma interface intuitiva para a criação e divulgação de eventos, além de ferramentas que facilitem a gestão de voluntários e recursos. Ela busca uma forma eficaz de mostrar o trabalho da sua ONG.                                                                                 |
+| **Expectativas**                    | Fabiana espera que a plataforma ofereça uma interface intuitiva para a criação e divulgação de eventos, além de ferramentas que facilitem a gestão de voluntários e recursos. Ela busca uma forma eficaz de conectar sua ONG a patrocinadores e de aumentar o impacto de suas ações. (Repensar)                                                                                 |
 
 ---
 
@@ -83,17 +83,17 @@ Com base na análise das personas, foram identificadas as seguintes histórias d
 | EU COMO... `PERSONA`         | QUERO/PRECISO ... `FUNCIONALIDADE`                             | PARA ... `MOTIVO/VALOR`                                |
 |------------------------------|---------------------------------------------------------------|--------------------------------------------------------|
 | João Pedro Martins            | Cadastrar e logar em uma plataforma com o objetivo de ações voluntárias       | Conseguir realizar o mutirão de reflorestamento com sucesso e impacto |
-| João Pedro Martins            | Facilitar a busca por patrocinadores interessados             | Reduzir os custos do evento e garantir recursos suficientes |
+| João Pedro Martins            | Cadastrar eventos de voluntariados para facilitar a busca por patrocinadores interessados e ca            | Reduzir os custos do evento e garantir recursos suficientes |
 | Maria Luísa Ferreira          | Encontrar eventos alinhados com os ODS para patrocínio        | Reforçar a responsabilidade social da empresa e melhorar sua imagem pública |
 | Maria Luísa Ferreira          | Um sistema que permita o engajamento dos funcionários da empresa | Aumentar a participação dos colaboradores em ações voluntárias |
 | Carlos Alberto Silva          | Uma plataforma para divulgar palestras e workshops educativos | Ampliar o alcance dos meus projetos de inclusão social |
 | Carlos Alberto Silva          | Conectar com ONGs e instituições para suporte logístico       | Melhorar a qualidade e a viabilidade das ações realizadas |
 | Renata Costa                  | Encontrar eventos de voluntariado acessíveis e organizados    | Aplicar meus conhecimentos acadêmicos e ganhar experiência prática |
-| Renata Costa                  | Um meio de se conectar com outros voluntários e profissionais da área | Expandir minha rede de contatos e oportunidades na área humanitária |
+| Renata Costa                  | Um meio de se organizar fornecendo eventos com notificações | Para que eu possa organizar minha agenda e alinha-lá com minha rotina |
 | Fabiana Melo                  | Atrair voluntários e patrocinadores para os projetos da ONG   | Aumentar o impacto social das ações realizadas pela ONG |
-| Fabiana Melo                  | Compatilhar em redes sociais eventos voluntários que a ONG participa                | Para mostrar nosso trabalho para a sociedade  |
+| Fabiana Melo                  | Gerenciar e acompanhar o andamento dos eventos                | Garantir a eficiência e o sucesso das iniciativas da ONG |
 | Lucas Santana                 | Encontrar eventos que combinem tecnologia e meio ambiente     | Contribuir com minhas habilidades técnicas para causas que importam |
-| Lucas Santana                 | Uma plataforma que permita organizar eventos com foco em educação ambiental | Integrar minha paixão por tecnologia com ações de impacto ambiental |
+| Lucas Santana                 | Uma plataforma que permita personalizar e editar meu perfil | Para que eu possa ter mais afinidade e ter uma experiência mais confortável com o sistema |
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
@@ -112,23 +112,23 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-01| A aplicação deve permitir que o usuário se cadastre.joao | ALTA | 
-|RF-02| A aplicação deve permitir que o usuário realize login.    | ALTA |
+|RF-01| A aplicação deve permitir que o usuário se cadastre. joao | ALTA | 
+|RF-02| A aplicação deve permitir que o usuário realize login. joao    | ALTA |
 |RF-03| A aplicação deve permitir criar diferentes tipos de usuários (instituição, pessoal). maria luisa | ALTA |
-|RF-04| A aplicação deve permitir que o usuário edite seu perfil. | ALTA |
+|RF-04| A aplicação deve permitir que o usuário edite seu perfil. lucas | ALTA |
 |RF-05| A aplicação deve permitir que o usuário cadastre e gerencie eventos.joao | ALTA |
 |RF-06| A aplicação deve permitir que os usuários entrem em eventos criados. Carlos ALTA | ALTA |
 |RF-07| A aplicação deve gerar relatórios de participação nos eventos e impacto social. maria luisa | ALTA |
-|RF-08| A aplicação deve enviar notificações sobre eventos próximos. | ALTA |
+|RF-08| A aplicação deve enviar notificações sobre eventos próximos. renata | ALTA |
 |RF-09| A aplicação deve permitir patrocinadores em eventos.joao| ALTA |
-|RF-10| A aplicação deve permitir criar diferentes tipos de usuários (instituição, pessoal). maria luisa | ALTA |
-|RF-11| A aplicação deve permitir a personalização de temas ou layout pelos usuários. | MÉDIA |
+|RF-10|
+|RF-11| A aplicação deve permitir a personalização de temas ou layout pelos usuários. lucas | MÉDIA |
 |RF-12| A aplicação deve permitir que usuários forneçam feedback ou avaliem os eventos após a participação. | MÉDIA |
 |RF-13| A aplicação deve permitir integração com calendários (Google Calendar, Outlook, etc.) para eventos.| MÉDIA |
 |RF-14| A aplicação deve possuir uma central de ajuda e FAQs com tutoriais e documentação. | BAIXA |
 |RF-15| A aplicação deve coletar feedback constante dos usuários para melhoria contínua. | BAIXA |
 |RF-16| A aplicação deve permitir que organizadores incluam patrocínios ou parcerias em eventos para gerar receita adicional. | BAIXA |
-|RF-17| A aplicação deve permitir o compartilhamento de eventos em redes sociais. Fabiana | BAIXA |
+|RF-17| A aplicação deve permitir o compartilhamento de eventos em redes sociais.| BAIXA |
 
 
  
