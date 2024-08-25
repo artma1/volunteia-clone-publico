@@ -91,7 +91,7 @@ Com base na análise das personas, foram identificadas as seguintes histórias d
 | Renata Costa                  | Encontrar eventos de voluntariado acessíveis e organizados    | Aplicar meus conhecimentos acadêmicos e ganhar experiência prática |
 | Renata Costa                  | Um meio de se conectar com outros voluntários e profissionais da área | Expandir minha rede de contatos e oportunidades na área humanitária |
 | Fabiana Melo                  | Atrair voluntários e patrocinadores para os projetos da ONG   | Aumentar o impacto social das ações realizadas pela ONG |
-| Fabiana Melo                  | Gerenciar e acompanhar o andamento dos eventos                | Garantir a eficiência e o sucesso das iniciativas da ONG |
+| Fabiana Melo                  | Compatilhar em redes sociais eventos voluntários que a ONG participa                | Para mostrar nosso trabalho para a sociedade  |
 | Lucas Santana                 | Encontrar eventos que combinem tecnologia e meio ambiente     | Contribuir com minhas habilidades técnicas para causas que importam |
 | Lucas Santana                 | Uma plataforma que permita organizar eventos com foco em educação ambiental | Integrar minha paixão por tecnologia com ações de impacto ambiental |
 
@@ -128,7 +128,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-14| A aplicação deve possuir uma central de ajuda e FAQs com tutoriais e documentação. | BAIXA |
 |RF-15| A aplicação deve coletar feedback constante dos usuários para melhoria contínua. | BAIXA |
 |RF-16| A aplicação deve permitir que organizadores incluam patrocínios ou parcerias em eventos para gerar receita adicional. | BAIXA |
-|RF-17| A aplicação deve permitir o compartilhamento de eventos em redes sociais.| BAIXA |
+|RF-17| A aplicação deve permitir o compartilhamento de eventos em redes sociais. Fabiana | BAIXA |
 
 
  
