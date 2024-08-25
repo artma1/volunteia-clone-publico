@@ -37,16 +37,16 @@ A criação desta aplicação representa uma resposta estratégica e necessária
 
 A aplicação será utilizada por uma variedade de perfis que compartilham o desejo de promover ações voluntárias em prol de causas sociais e ambientais. Esses perfis incluem:
 
-## 1. Indivíduos Socialmente Engajados
+#### 1. Indivíduos Socialmente Engajados
 Pessoas de todas as idades, especialmente jovens adultos, com um forte interesse em contribuir para o bem-estar social e a sustentabilidade. Estes usuários têm uma afinidade natural com tecnologia e redes sociais, utilizando essas ferramentas para se informar e se engajar em causas que lhes são importantes. Muitos já possuem algum envolvimento prévio em voluntariado ou ações comunitárias e estão em busca de oportunidades que permitam ampliar seu impacto.
 
-## 2. Organizações Não Governamentais (ONGs) e Instituições Sociais
+#### 2. Organizações Não Governamentais (ONGs) e Instituições Sociais
 ONGs, fundações, associações e outras instituições dedicadas a causas sociais e ambientais constituem um público-alvo central da aplicação. Essas organizações frequentemente enfrentam desafios na mobilização de recursos humanos e materiais para suas iniciativas. Elas possuem uma estrutura organizacional variável, podendo ser compostas por equipes pequenas ou médias, geralmente com recursos limitados, mas altamente motivadas e comprometidas com suas missões.
 
-## 3. Empresas e Patrocinadores
+#### 3. Empresas e Patrocinadores
 Empresas de diversos setores que desejam promover sua responsabilidade social corporativa por meio de patrocínios ou envolvimento direto em ações voluntárias. Esses usuários tendem a ser departamentos de marketing, RH ou responsabilidade social que buscam alinhar suas marcas com causas relevantes, ao mesmo tempo em que incentivam a participação de seus colaboradores em atividades voluntárias.
 
-## 4. Comunidades Locais e Grupos Comunitários
+#### 4. Comunidades Locais e Grupos Comunitários
 Grupos informais e comunidades locais que buscam apoio para resolver problemas específicos ou implementar iniciativas que beneficiem diretamente suas localidades. Esses usuários podem ter menos experiência com tecnologia, mas estão profundamente enraizados em suas comunidades e desejam utilizar a plataforma para atrair voluntários e recursos para suas causas.
 
 É necessário realizar a gravação do Vídeo de 2 minutos sobre o problema e a solução proposta pela nossa equipe.
