@@ -53,7 +53,7 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Descrição**                       | Lucas é aquele cara que curte tecnologia e natureza. Ele passa os dias codando em casa, mas sempre arruma um tempinho para fazer trilhas ou dar uma volta na praia. A cabeça dele está sempre pensando em como pode usar suas habilidades para ajudar o planeta, e ele tá afim de encontrar uma galera que pense como ele.                                                   |
 | **Dores**                           | Lucas até já achou alguns eventos bacanas, mas tudo parece meio desorganizado ou difícil de acompanhar. Ele fica frustrado quando não consegue encontrar algo que se encaixe na sua rotina ou que faça ele se sentir realmente útil.                                                                                                                                |
-| **Expectativas**                    | Ele espera uma plataforma onde possa descobrir eventos voltados para a proteção do meio ambiente, que sejam bem estruturados e que ele possa encaixar entre um código e outro. Se rolar a oportunidade de conhecer pessoas que também curtem essas causas, melhor ainda!                                                                                             |
+| **Expectativas**                    | Ele espera uma plataforma onde possa descobrir eventos voltados para a proteção do meio ambiente, que sejam bem estruturados e que ele possa encaixar entre um código e outro. Se tiver a oportunidade de conhecer pessoas que também gostam dessas causas, melhor ainda!                                                                                             |
 
 Identifique, em torno de, 5 personas. Para cada persona, lembre-se de descrever suas angústicas, frustrações e expectativas de vida relacionadas ao problema. Além disso, defina uma "aparência" para a persona. Para isso, você poderá utilizar sites como [https://this-person-does-not-exist.com/pt#google_vignette](https://this-person-does-not-exist.com/pt) ou https://thispersondoesnotexist.com/ 
 
@@ -94,6 +94,7 @@ Com base na análise das personas, foram identificadas as seguintes histórias d
 | Lucas Santana                 | Encontrar eventos que combinem tecnologia e meio ambiente     | Contribuir com minhas habilidades técnicas para causas que importam |
 | Lucas Santana                 | Uma plataforma que permita personalizar e editar meu perfil | Para que eu possa ter mais afinidade e ter uma experiência mais confortável com o sistema |
 | Lucas Santana                 | Fornecer feedback e pontos de melhoria para os organizadores do evento | Para contribuir com a evolução e a eficiência dos eventos promovidos |
+| Lucas Santana                 | Obter certificados de participação dos eventos onde ele atuou | Para que ele possa compartilhar com sua comunidade e inspirar as pessoas |
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
@@ -121,14 +122,14 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-07| A aplicação deve gerar relatórios de participação nos eventos e impacto social. Maria Luisa | ALTA |
 |RF-08| A aplicação deve enviar notificações sobre eventos próximos. Renata | ALTA |
 |RF-09| A aplicação deve permitir patrocinadores em eventos. Joao| ALTA |
-|RF-10|
+|RF-10| A aplicação deve gerar certificado de participação em evento. Lucas | ALTA |
 |RF-11| A aplicação deve permitir a personalização de temas ou layout pelos usuários. Lucas | MÉDIA |
 |RF-12| A aplicação deve permitir que usuários forneçam feedback ou avaliem os eventos após a participação. Lucas | MÉDIA |
-|RF-13| 
-|RF-14| A aplicação deve possuir uma central de ajuda e FAQs com tutoriais e documentação. Carlos | BAIXA |
+|RF-13| A aplicação deve possuir uma central de ajuda e FAQs com tutoriais e documentação. Carlos | BAIXA |
+|RF-14| A aplicação deve permitir o compartilhamento de eventos em redes sociais. Fabiana | BAIXA |
 |RF-15|
 |RF-16| 
-|RF-17| A aplicação deve permitir o compartilhamento de eventos em redes sociais. Fabiana | BAIXA |
+|RF-17| 
 
 
  
