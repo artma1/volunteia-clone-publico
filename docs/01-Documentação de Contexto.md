@@ -20,6 +20,7 @@ O objetivo geral deste projeto é desenvolver uma plataforma digital capaz de co
 2.	Conectar ONGs e instituições a voluntários e patrocinadores: A plataforma facilitará a conexão entre ONGs e instituições com voluntários e patrocinadores, garantindo os recursos necessários para o sucesso das iniciativas sociais.
 3.	Aumentar os impactos positivos dessas ações na sociedade: A plataforma ampliará o impacto positivo de ações sociais ao facilitar a organização e participação em eventos de voluntariado, promovendo mudanças sociais e práticas sustentáveis.
 4.	Fornecer mais visibilidade a problemas e pessoas que precisam de ajuda: A plataforma aumentará a visibilidade de problemas críticos e pessoas necessitadas, promovendo campanhas e eventos para direcionar recursos e voluntários, garantindo ajuda eficaz e rápida.
+
 Por meio desses objetivos, o projeto visa não apenas resolver o problema da desconexão entre indivíduos, instituições e causas sociais, mas também potencializar o impacto dessas ações, contribuindo para um mundo mais justo e sustentável.
 
 ## Justificativa
