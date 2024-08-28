@@ -49,7 +49,6 @@ Empresas de diversos setores que desejam promover sua responsabilidade social co
 #### 4. Comunidades Locais e Grupos Comunitários
 Grupos informais e comunidades locais que buscam apoio para resolver problemas específicos ou implementar iniciativas que beneficiem diretamente suas localidades. Esses usuários podem ter menos experiência com tecnologia, mas estão profundamente enraizados em suas comunidades e desejam utilizar a plataforma para atrair voluntários e recursos para suas causas.
 
-É necessário realizar a gravação do Vídeo de 2 minutos sobre o problema e a solução proposta pela nossa equipe.
 
 #### Referências
 [^1]: ONU. **Objetivos de Desenvolvimento Sustentável | As Nações Unidas no Brasil**. Disponível em: <https://brasil.un.org/pt-br/sdgs>. *Acesso em: 20 ago. 2024*.
