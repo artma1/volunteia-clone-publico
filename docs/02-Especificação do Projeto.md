@@ -87,10 +87,12 @@ Com base na análise das personas, foram identificadas as seguintes histórias d
 | Maria Luísa Ferreira          | Encontrar eventos alinhados com os ODS para patrocínio        | Reforçar a responsabilidade social da empresa e melhorar sua imagem pública |
 | Maria Luísa Ferreira          | Um sistema que permita o engajamento dos funcionários da empresa | Aumentar a participação dos colaboradores em ações voluntárias |
 | Carlos Alberto Silva          | Uma plataforma facil de usar com instruções detalhadas | Participar de ações voluntárias |
+| Carlos Alberto Silva          | Receber sugestões de ações voluntárias | Facilitar o meu uso da plataforma |
 | Renata Costa                  | Encontrar eventos de voluntariado acessíveis e organizados    | Aplicar meus conhecimentos acadêmicos e ganhar experiência prática |
 | Renata Costa                  | Um meio de se organizar fornecendo eventos com notificações | Para que eu possa organizar minha agenda e alinha-lá com minha rotina |
 | Fabiana Melo                  | Gostaria de compartilhar nas redes sociais eventos voluntários da ONG   | Para mostrar o trabalho realizadas pela ONG |
 | Fabiana Melo                  | Gerenciar e acompanhar o andamento dos eventos | Garantir a eficiência e o sucesso das iniciativas da ONG |
+| Fabiana Melo                  | Acompanhar apenas ações que sejam moderadas | Garantir que as ações associadas compartilham os valores sustentáveis da ONG |
 | Lucas Santana                 | Encontrar eventos que combinem tecnologia e meio ambiente     | Contribuir com minhas habilidades técnicas para causas que importam |
 | Lucas Santana                 | Uma plataforma que permita personalizar e editar meu perfil | Para que eu possa ter mais afinidade e ter uma experiência mais confortável com o sistema |
 | Lucas Santana                 | Fornecer feedback e pontos de melhoria para os organizadores do evento | Para contribuir com a evolução e a eficiência dos eventos promovidos |
@@ -127,9 +129,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-12| A aplicação deve permitir que usuários forneçam feedback ou avaliem os eventos após a participação. Lucas | MÉDIA |
 |RF-13| A aplicação deve possuir uma central de ajuda e FAQs com tutoriais e documentação. Carlos | BAIXA |
 |RF-14| A aplicação deve permitir o compartilhamento de eventos em redes sociais. Fabiana | BAIXA |
-|RF-15|
-|RF-16| 
-|RF-17| 
+|RF-15| A aplicação deve moderar a criação de ações voluntárias. Fabiana | MÉDIA |
+|RF-16| A aplicação deve utilizar IA para sugerir eventos ao usuário. | BAIXA |
 
 
  
@@ -192,7 +193,8 @@ Enumere as restrições à sua solução. Lembre-se de que as restrições geral
 O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
 
 
-![Diagrama sem nome (1)](https://github.com/user-attachments/assets/33c29896-43eb-40d6-8b5f-18feebaa503a)
+![Diagrama sem nome (2)](https://github.com/user-attachments/assets/977ca395-9c1f-4b56-ae11-514be410c0fa)
+
 
 
 As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
@@ -204,5 +206,4 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de
 > - [Astah](https://astah.net/)
 > - [Diagrams](https://app.diagrams.net/)
 
-### É necessário realizar a gravação do Vídeo de 2 minutos sobre o problema e a solução proposta pela nossa equipe.
 
