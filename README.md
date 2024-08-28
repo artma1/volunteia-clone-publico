@@ -6,7 +6,7 @@
 
 `EIXO 2`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O projeto consiste de uma plataforma que conecte pessoas e instituições que desejam fazer algum trabalho voluntário, através da criação descentralizada de ações voluntárias focadas em um ou mais dos 17 ODS. Qualquer pessoa ou instituição poderá criar uma ação voluntária que ficará disponível na plataforma. Baseado nos dados da ação voluntária, outros usuários que se identifiquem poderão se juntar à mesma.
 
 ## Integrantes
 
