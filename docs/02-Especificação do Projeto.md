@@ -117,7 +117,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |--|-------------------------------------------------------|
 |01| O projeto deve ser entregue até o final do semestre letivo, com prazo máximo de (00/00/2024), sem possibilidade de extensão |
 |02| As tecnologias utilizadas no desenvolvimento da aplicação serão: C# para o backend responsável pela gestão das reservas, MySQL para o armazenamento dos dados das salas e reservas, e JavaScript, CSS, HTML e Bootstrap para a interface do usuário.    |
-|03| A aplicação deve estar operacional no servidor da Microsoft.   |
+|03| A aplicação deve estar operacional na plataforma Azure.   |
 
 
 ## Diagrama de Casos de Uso
