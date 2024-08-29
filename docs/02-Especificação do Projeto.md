@@ -96,23 +96,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-14| A aplicação deve permitir o compartilhamento de eventos em redes sociais. Fabiana | BAIXA |
 |RF-15| A aplicação deve moderar a criação de ações voluntárias. Fabiana | MÉDIA |
 |RF-16| A aplicação deve utilizar IA para sugerir eventos ao usuário. | BAIXA |
-
-
  
-//RF-013	A aplicação deve implementar autenticação de dois fatores (2FA) para segurança adicional.	ALTA
-
-//RF-014	A aplicação deve possuir um painel de analytics com estatísticas detalhadas para administradores e organizadores.	ALTA
-
-//RF-018	A aplicação deve incluir um sistema de mensagens para comunicação entre usuários e organizadores de eventos.	MÉDIA
-
-//RF-012	A aplicação deve permitir o compartilhamento de eventos em redes sociais.	BAIXA
-
-//RF-13 A aplicação deve permitir integração com calendários (Google Calendar, Outlook, etc.) para eventos.| MÉDIA |
-
-//RF-16 A aplicação deve permitir que organizadores incluam patrocínios ou parcerias em eventos para gerar receita adicional. | BAIXA |
- 
-RNF-01 A aplicação deve exigir senha de no mínimo 8 caracteres, com letras maiúsculas, minúsculas, números e caracteres especiais.
-RNF-02 A aplicação deve permitir a criação de eventos apenas com pelo menos 5 dias de antecedência.
 
 ### Requisitos não Funcionais
 
@@ -123,8 +107,6 @@ RNF-02 A aplicação deve permitir a criação de eventos apenas com pelo menos 
 |RNF-03| A aplicação deve permitir criação de eventos apenas por usuários criados há mais de 7 dias. |  BAIXA | 
 |RNF-04| A aplicação deve permitir ao usuário deixar suas informações de contato privadas. |  MÉDIA | 
 |RNF-05| A aplicação deve estar disponível 99% das 24 horas do dia, 7 dias por semana. |  BAIXA | 
-
-
 
 
 ## Restrições
