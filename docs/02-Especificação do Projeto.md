@@ -3,7 +3,7 @@
 ## Personas
 
 
-| ![file (2)](https://github.com/user-attachments/assets/5bc75835-2322-4e39-aeb8-94c2d949db83) | **Nome:** João Pedro Martins  <br> **Idade:** 35 anos  <br> **Profissão:** Engenheiro Ambiental  <br> **Localização:** Curitiba, Brasil  <br> **Formação:** Graduação em Engenharia Ambiental  <br> **Objetivo:** Organizar mutirões para reflorestamento e recuperação de áreas degradadas |
+| ![download](https://github.com/user-attachments/assets/9b396aa0-9dd7-4849-8203-a9c9af491bb2) | **Nome:** João Pedro Martins  <br> **Idade:** 35 anos  <br> **Profissão:** Engenheiro Ambiental  <br> **Localização:** Curitiba, Brasil  <br> **Formação:** Graduação em Engenharia Ambiental  <br> **Objetivo:** Organizar mutirões para reflorestamento e recuperação de áreas degradadas |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Descrição**                       | João Pedro é um engenheiro ambiental dedicado que trabalha em uma empresa de consultoria ecológica. Apaixonado por conservação ambiental, ele deseja mobilizar pessoas em torno de projetos de reflorestamento e recuperação de áreas afetadas por desastres naturais. Ele busca formas eficientes de engajar voluntários e atrair patrocinadores para seus projetos. |
 | **Dores**                           | João enfrenta dificuldades para encontrar uma plataforma que facilite a organização e divulgação de seus projetos. Ele também tem dificuldades em atrair voluntários comprometidos e em conseguir patrocínios suficientes para cobrir os custos das operações.                                                                                                               |
@@ -19,7 +19,7 @@
 
 ---
 
-| ![file (1)](https://github.com/user-attachments/assets/16d5722f-9ffa-4d73-9af4-25f599a15d1e) | **Nome:** Carlos Alberto Silva  <br> **Idade:** 62 anos  <br> **Profissão:** Jardineiro  <br> **Localização:** Belo Horizonte, Brasil  <br> **Formação:** Ensino Fundamental  <br> **Objetivo:** Promover e participar de eventos educacionais voltados para a inclusão social |
+|![download (2)](https://github.com/user-attachments/assets/f12ecc0c-f7e9-4457-8746-f6f0adf45672) | **Nome:** Carlos Alberto Silva  <br> **Idade:** 62 anos  <br> **Profissão:** Jardineiro  <br> **Localização:** Belo Horizonte, Brasil  <br> **Formação:** Ensino Fundamental  <br> **Objetivo:** Promover e participar de eventos educacionais voltados para a inclusão social |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Descrição**                       | Carlos Alberto é um profissional de jardinagem há 40 anos, apaixonado por natureza, ele ama poder ajudar o proxímo. Sempre teve o desejo de fazer o voluntario voltado para o meio ambiente. |
 | **Dores**                           | Carlos frequentemente enfrenta dificuldades para encontrar informações ou tutoriais que sejam simples e compreensíveis, o que faz com que ele se sinta excluído do mundo digital.  |
