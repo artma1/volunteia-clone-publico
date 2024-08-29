@@ -19,7 +19,7 @@
 
 ---
 
-| ![download (2)](https://github.com/user-attachments/assets/3c534213-cd6f-4cf2-94ff-bbca2ef99973) {width=150 height=150} | **Nome:** Carlos Alberto Silva  <br> **Idade:** 62 anos  <br> **Profissão:** Jardineiro  <br> **Localização:** Belo Horizonte, Brasil  <br> **Formação:** Ensino Fundamental  <br> **Objetivo:** Promover e participar de eventos educacionais voltados para a inclusão social |
+| ![file](https://github.com/user-attachments/assets/c6d20f66-f3f0-4974-8fc6-fea2869e3769) | **Nome:** Carlos Alberto Silva  <br> **Idade:** 62 anos  <br> **Profissão:** Jardineiro  <br> **Localização:** Belo Horizonte, Brasil  <br> **Formação:** Ensino Fundamental  <br> **Objetivo:** Promover e participar de eventos educacionais voltados para a inclusão social |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Descrição**                       | Carlos Alberto é um profissional de jardinagem há 40 anos, apaixonado por natureza, ele ama poder ajudar o proxímo. Sempre teve o desejo de fazer o voluntario voltado para o meio ambiente. |
 | **Dores**                           | Carlos frequentemente enfrenta dificuldades para encontrar informações ou tutoriais que sejam simples e compreensíveis, o que faz com que ele se sinta excluído do mundo digital.  |
