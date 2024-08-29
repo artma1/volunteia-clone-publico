@@ -80,21 +80,21 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-01| A aplicação deve permitir que o usuário se cadastre. Joao | ALTA | 
-|RF-02| A aplicação deve permitir que o usuário realize login. Joao    | ALTA |
-|RF-03| A aplicação deve permitir criar diferentes tipos de usuários (instituição, pessoal). Maria Luisa | ALTA |
-|RF-04| A aplicação deve permitir que o usuário edite seu perfil. Lucas | ALTA |
-|RF-05| A aplicação deve permitir que o usuário cadastre e gerencie eventos. Joao | ALTA |
-|RF-06| A aplicação deve permitir que os usuários entrem em eventos criados. Carlos  | ALTA |
-|RF-07| A aplicação deve gerar relatórios de participação nos eventos e impacto social. Maria Luisa | ALTA |
-|RF-08| A aplicação deve enviar notificações sobre eventos próximos. Renata | ALTA |
-|RF-09| A aplicação deve permitir patrocinadores em eventos. Joao| ALTA |
-|RF-10| A aplicação deve gerar certificado de participação em evento. Lucas | ALTA |
-|RF-11| A aplicação deve permitir a personalização de temas ou layout pelos usuários. Lucas | MÉDIA |
-|RF-12| A aplicação deve permitir que usuários forneçam feedback ou avaliem os eventos após a participação. Lucas | MÉDIA |
-|RF-13| A aplicação deve possuir uma central de ajuda e FAQs com tutoriais e documentação. Carlos | BAIXA |
-|RF-14| A aplicação deve permitir o compartilhamento de eventos em redes sociais. Fabiana | BAIXA |
-|RF-15| A aplicação deve moderar a criação de ações voluntárias. Fabiana | MÉDIA |
+|RF-01| A aplicação deve permitir que o usuário se cadastre.  | ALTA | 
+|RF-02| A aplicação deve permitir que o usuário realize login.     | ALTA |
+|RF-03| A aplicação deve permitir criar diferentes tipos de usuários (instituição, pessoal).  | ALTA |
+|RF-04| A aplicação deve permitir que o usuário edite seu perfil.  | ALTA |
+|RF-05| A aplicação deve permitir que o usuário cadastre e gerencie eventos.  | ALTA |
+|RF-06| A aplicação deve permitir que os usuários entrem em eventos criados.   | ALTA |
+|RF-07| A aplicação deve gerar relatórios de participação nos eventos e impacto social.  | ALTA |
+|RF-08| A aplicação deve enviar notificações sobre eventos próximos.  | ALTA |
+|RF-09| A aplicação deve permitir patrocinadores em eventos. | ALTA |
+|RF-10| A aplicação deve gerar certificado de participação em evento.  | ALTA |
+|RF-11| A aplicação deve permitir a personalização de temas ou layout pelos usuários.  | MÉDIA |
+|RF-12| A aplicação deve permitir que usuários forneçam feedback ou avaliem os eventos após a participação.  | MÉDIA |
+|RF-13| A aplicação deve possuir uma central de ajuda e FAQs com tutoriais e documentação.  | BAIXA |
+|RF-14| A aplicação deve permitir o compartilhamento de eventos em redes sociais.  | BAIXA |
+|RF-15| A aplicação deve moderar a criação de ações voluntárias. | MÉDIA |
 |RF-16| A aplicação deve utilizar IA para sugerir eventos ao usuário. | BAIXA |
  
 
