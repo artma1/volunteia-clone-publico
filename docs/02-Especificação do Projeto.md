@@ -27,14 +27,6 @@
 
 ---
 
-|![download-_2_](https://github.com/user-attachments/assets/1e0c84d3-97db-425b-bd98-40bb920baf4b) | **Nome:** Carlos Alberto Silva  <br> **Idade:** 62 anos  <br> **Profissão:** Jardineiro  <br> **Localização:** Belo Horizonte, Brasil  <br> **Formação:** Ensino Fundamental  <br> **Objetivo:** Promover e participar de eventos educacionais voltados para a inclusão social |
-|-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Descrição**                       | Carlos Alberto é um profissional de jardinagem há 40 anos, apaixonado por natureza, ele ama poder ajudar o proxímo. Sempre teve o desejo de fazer o voluntario voltado para o meio ambiente. |
-| **Dores**                           | Carlos frequentemente enfrenta dificuldades para encontrar informações ou tutoriais que sejam simples e compreensíveis, o que faz com que ele se sinta excluído do mundo digital.  |
-| **Expectativas**                    | Carlos espera que qualquer tecnologia ou ferramenta seja fácil de usar e ofereça instruções claras e diretas para voluntariados.    |
-
----
-
 | ![download (3)](https://github.com/user-attachments/assets/3ea99c98-85dc-4a8b-ad34-8337ddd39b84) | **Nome:** Renata Costa  <br> **Idade:** 22 anos  <br> **Profissão:** Estudante de Relações Internacionais  <br> **Localização:** Rio de Janeiro, Brasil  <br> **Formação:** Cursando Bacharelado em Relações Internacionais  <br> **Objetivo:** Participar de eventos de voluntariado voltados para a ajuda humanitária e direitos humanos |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Descrição**                       | Renata é uma jovem estudante que sempre esteve envolvida em causas humanitárias. Com um forte desejo de fazer a diferença, ela está constantemente buscando oportunidades de voluntariado que estejam alinhados com seus valores de justiça social e direitos humanos. Ela quer adquirir experiência prática enquanto contribui para a melhoria da sociedade.    |
