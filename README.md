@@ -11,9 +11,11 @@ O projeto consiste de uma plataforma que conecte pessoas e instituições que de
 ## Integrantes
 
 * Artur Maciel de Assis Pinto
-* Sharon Steicy Dos Santos Vasquez
+* Brendo William Rodrigues
 * Gustavo Gonçalve da Paz
 * João Victor Kalil de Almeida Lapa
+* Lucy Suxo
+* Sharon Steicy Dos Santos Vasquez
 
 ## Orientador
 
