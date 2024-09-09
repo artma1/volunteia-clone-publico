@@ -17,6 +17,11 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de
 
 ## Modelo ER (Projeto Conceitual)
 
+[Incompleto - https://app.diagrams.net/#G1OHbtnfiQ4K3P4y0-ZxCPsnBkridspCtM#%7B"pageId"%3A"e7e014a7-5840-1c2e-5031-d8a46d1fe8dd"%7D]
+
+![Modelo ER (Projeto Conceitual) - Volunteia drawio](https://github.com/user-attachments/assets/fe76fd0f-adba-4d25-b62f-88264e5f44fb)
+
+
 O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.
 
 Sugestão de ferramentas para geração deste artefato: LucidChart e Draw.io.
