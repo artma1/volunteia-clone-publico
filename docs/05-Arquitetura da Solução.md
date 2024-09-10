@@ -17,7 +17,7 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de
 
 ## Modelo ER (Projeto Conceitual)
 
-[Incompleto - https://app.diagrams.net/#G1OHbtnfiQ4K3P4y0-ZxCPsnBkridspCtM#%7B"pageId"%3A"e7e014a7-5840-1c2e-5031-d8a46d1fe8dd"%7D]
+[Incompleto - https://www.figma.com/board/PHfu4gXXiTq8mC644mqWYJ/Modelo-ER-(Projeto-Conceitual)---Volunteia?node-id=0-1&t=zPTG97ef8rZV2qBc-1]
 
 ![Modelo ER (Projeto Conceitual) - Volunteia drawio](https://github.com/user-attachments/assets/fe76fd0f-adba-4d25-b62f-88264e5f44fb)
 
