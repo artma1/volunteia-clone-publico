@@ -9,28 +9,21 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
 ## Diagrama de Fluxo
 
-O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema interativo e  muitas vezes sem a necessidade do desenho do design das telas da interface. Isso permite que o design das interações seja bem planejado e gere impacto na qualidade no design do wireframe interativo que será desenvolvido logo em seguida.
 
-O diagrama de fluxo pode ser desenvolvido com “boxes” que possuem internamente a indicação dos principais elementos de interface - tais como menus e acessos - e funcionalidades, tais como editar, pesquisar, filtrar, configurar - e a conexão entre esses boxes a partir do processo de interação. Você pode ver mais explicações e exemplos https://www.lucidchart.com/blog/how-to-make-a-user-flow-diagram.
+![Diagramadefluxo](https://github.com/user-attachments/assets/7d9b1e8f-cc2b-4020-a068-5277c33a6a7a)
 
-![Exemplo de Diagrama de Fluxo](img/diagramafluxo2.jpg)
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas de Fluxo”.
 
-> **Links Úteis**:
-> - [Fluxograma online: seis sites para fazer gráfico sem instalar nada | Produtividade | TechTudo](https://www.techtudo.com.br/listas/2019/03/fluxograma-online-seis-sites-para-fazer-grafico-sem-instalar-nada.ghtml)
+> **Link de Acesso**:
+> - https://www.figma.com/design/ZSaJEAEkUjheL0CxUMXNi7/Diagrama-de-Fluxo?node-id=0-1&t=bcHjrvP1x0HYa4Ct-1
 
 ## Wireframes
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+![Wireframe](https://github.com/user-attachments/assets/aa191c5c-d84f-4bc0-b676-0af85d11714b)
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
+
+
+Esse é o nosso protótipos de interface para sugerir a estrutura do site web que nos propomos a fazer. 
  
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+> **Links de Acesso**:
+> - https://www.figma.com/design/YiMwEt8iHAPgrzrbnNKSfL/Wireframe?node-id=0-1&t=zL2TIPbhRxzAZsrz-1
