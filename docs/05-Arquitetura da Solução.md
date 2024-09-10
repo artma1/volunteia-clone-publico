@@ -19,8 +19,7 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de
 
 [Incompleto - https://www.figma.com/board/PHfu4gXXiTq8mC644mqWYJ/Modelo-ER-(Projeto-Conceitual)---Volunteia?node-id=0-1&t=zPTG97ef8rZV2qBc-1]
 
-![Modelo ER (Projeto Conceitual) - Volunteia drawio](https://github.com/user-attachments/assets/fe76fd0f-adba-4d25-b62f-88264e5f44fb)
-
+![Imagem do WhatsApp de 2024-09-10 à(s) 11 30 16_5f517190](https://github.com/user-attachments/assets/511c3863-2060-4ba3-8ae2-aa787cdf484c)
 
 O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.
 
