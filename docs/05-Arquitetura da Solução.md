@@ -38,11 +38,16 @@ Para mais informações, consulte o microfundamento "Modelagem de Dados".
 ## Tecnologias Utilizadas
 
 As tecnologias utilizadas serão:
-<li> Linguagem de programação: C#</li>
-<li> Frameworks: Entities e Identity</li>
+<li> Linguagem de programação: C#, HTML, CSS, JavaScript</li>
+<li> Frameworks: Entity e Identity</li>
 <li> IDE: Visual Studio</li>
-<li> Diagramas: Visual Paradigm, Draw.io</li>
+<li> Diagramas: Visual Paradigm, Draw.io, Excalidraw, Figma</li>
 <li> Protótipo: Figma</li>
+<li> SGBD: MySQL</li>
+<li> Servidor/Nuvem: Azure </li>
+<li> Hospedagem: Vercel ou Heroku </li>
+
+![diagrama tecnologias-azurefora](https://github.com/user-attachments/assets/a627bcc4-b63b-426d-9613-ce981aa9a957)
 
 Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
 
