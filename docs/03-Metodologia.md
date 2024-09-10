@@ -29,6 +29,7 @@ A equipe optou por trabalhar com Processos Ágeis, adotando o Scrum como metodol
 Desta forma, a equipe está organizada da seguinte maneira:
 
 Scrum Master: ????????????
+
 Product Owner: ???????????
 
 * Equipe de Desenvolvimento: 
