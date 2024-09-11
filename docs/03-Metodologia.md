@@ -28,13 +28,13 @@ A equipe optou por trabalhar com Processos Ágeis, adotando o Scrum como metodol
 
 Desta forma, a equipe está organizada da seguinte maneira:
 
-Scrum Master: ????????????
+Scrum Master: Brendo William Rodrigues
 
-Product Owner: ???????????
+Product Owner: Sharon Steicy dos Santos Vasquez
 
 * Equipe de Desenvolvimento: 
   - Artur Maciel de Assis Pinto; 
-  - Brendo William Rodrigues.;
+  - Brendo William Rodrigues;
   - Gustavo Paz;
   - João Victor Kalil;
   - Lucy Elaine Quispe Suxo;
