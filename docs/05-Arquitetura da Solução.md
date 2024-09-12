@@ -19,7 +19,17 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de
 
 [Incompleto - https://www.figma.com/board/PHfu4gXXiTq8mC644mqWYJ/Modelo-ER-(Projeto-Conceitual)---Volunteia?node-id=0-1&t=zPTG97ef8rZV2qBc-1]
 
-![Imagem do WhatsApp de 2024-09-10 à(s) 11 30 16_5f517190](https://github.com/user-attachments/assets/511c3863-2060-4ba3-8ae2-aa787cdf484c)
+Índice:
+ 
+Retângulo: Representa a entidade.
+
+Elipse: Representa atributos da entidade.
+
+Diamente: Representa a ação de relacionamento entre as entidades.
+
+
+<img width="2477" alt="Modelo ER (Projeto Conceitual) - Volunteia V2" src="https://github.com/user-attachments/assets/dbb51adf-bf53-4e5c-af13-67057b37d4a5">
+
 
 O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.
 
