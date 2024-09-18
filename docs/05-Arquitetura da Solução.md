@@ -5,7 +5,9 @@
 Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
 
 ## Diagrama de Classes
-![voluntariado (1)](https://github.com/user-attachments/assets/7941ef89-8496-41f8-a4e4-d6a63034f69d)
+![voluntariado-Copy of Page-1 (4)](https://github.com/user-attachments/assets/bac8e425-ea1b-45b0-ba76-1f083603862a)
+
+
 
 
 
