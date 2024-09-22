@@ -55,9 +55,7 @@ O quadro de tarefas foi estruturado com os seguintes tópicos:
 - In Review: Quando uma história/subtarefa do "Sprint Backlog" é finalizada e necessita de aprovação
 - Done: Contém as história/subtarefas que passaram pela revisão e foram aprovadas.
 
-
-  <img src="./img/backlog22.png">
-  
+    
   ![Captura de tela 2024-09-10 193249](https://github.com/user-attachments/assets/5fa53e9e-08b6-48d9-af71-cd217d5f04bc)
 
     <figcaption>Figura 1 - Github Project</figcaption>
@@ -67,10 +65,8 @@ O quadro de tarefas foi estruturado com os seguintes tópicos:
 
 Os milestones foram organizados para representarem as Etapas e seguirem o calendário de entregas do Projeto: Desenvolvimento de uma Aplicação Interativa
 
-<figure> 
-  <img src="./img/milestones.png">
-    <figcaption>Figura 2 - Milestones</figcaption>
-</figure> 
+![Captura de tela 2024-09-22 102337](https://github.com/user-attachments/assets/26fc66b8-f605-4bf2-9e0d-324439b3fa0d)
+
 
 #### Artefatos
 
