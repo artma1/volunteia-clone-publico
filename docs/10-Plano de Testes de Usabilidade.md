@@ -1,6 +1,6 @@
 # Plano de Testes de Usabilidade
  
-Este plano de testes de usabilidade visa avaliar o uso e a experiência do usuário na plataforma de reserva de salas de reunião. O serão avaliados a interatividade e eficiência do sistema para garantir uma experiência suave e intuitiva para todos os usuários.
+Este plano de testes de usabilidade visa avaliar o uso e a experiência do usuário na plataforma Volunteia, voltada para o voluntariado. O serão avaliados a interatividade e eficiência do sistema para garantir uma experiência suave e clara para todos os usuários.
  
 ## Objetivos
  
