@@ -9,7 +9,10 @@ Este plano de testes de usabilidade visa avaliar o uso e a experiência do usuá
 - Coletar feedback para compreender as necessidades e expectativas, contribuindo para o aprimoramento contínuo da interface e da experiência geral.
  
 ## Metodologia
-Os testes de usabilidade serão realizados com um grupo de participantes que representam as personas identificadas para a aplicação. Os testes ocorrerão em um ambiente controlado, onde os participantes serão instruídos a realizar uma série de tarefas específicas voltadas a cada nível de usuário, algumas voltadas aos admins, como realizar login, criar usuários simples, navegar pelo calendário, visualizar salas disponíveis, acompanhar o status em tempo real das reservas etc. E em relação aos usuários simples, criando eventos no calendário, vinculando as salas de reuniões disponíveis, cancelando reservas e etc.
+O teste será conduzido de maneira moderada, com os usuários executando as tarefas descritas nos cenários enquanto são observados. As interações serão analisadas, e o moderador poderá fazer perguntas abertas para entender as motivações e dificuldades dos usuários. As seguintes métricas de usabilidade serão coletadas:
+- Eficiência: tempo gasto para concluir cada tarefa.
+- Eficácia: percentual de tarefas concluídas com sucesso.
+- Satisfação: feedback qualitativo após cada tarefa (ex.: escalas de satisfação).
  
 # Cenários de Teste de Usabilidade:
  
