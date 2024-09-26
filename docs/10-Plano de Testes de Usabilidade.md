@@ -16,8 +16,8 @@ O teste será conduzido de maneira moderada, com os usuários executando as tare
  
 # Cenários de Teste de Usabilidade:
  
-| Tarefa | Objetivos | Critérios de Avaliação de Usabilidade | Coleta de Dados | Análise dos Resultados | Recomendações |
-|--------|-----------|--------------------------------------|-----------------|------------------------|---------------|
+| Tarefa | Objetivos | Critérios de Avaliação de Usabilidade | Coleta de Dados | Análise dos Resultados | Recomendações |   Personas   |
+|--------|-----------|--------------------------------------|-----------------|------------------------|---------------|---------------|
 | *Login/Logout* | Verificar a eficiência e eficácia do processo de login e logout. | - Tempo médio para completar cada ação.<br>- Número de cliques necessários.<br>- Conformidade com a heurística de feedback do sistema. | Observação direta, cronometragem, e registro de cliques. | Identificar demoras, erros de entrada, ou confusões sobre o estado do login. | Melhorar feedback visual durante o processo e simplificar o formulário de login. |
 | *Cadastro e gestão das salas de reunião* | Avaliar a facilidade de adicionar, editar, listar e excluir salas. | - Tempo médio para completar cada ação.<br>- Número de interações.<br>- Adesão à heurística de prevenção de erros. | Observação direta, registros de interação. | Verificar se os usuários conseguem realizar as tarefas sem assistência e identificar pontos de erro. | Simplificar interface de gerenciamento e adicionar confirmações de exclusão. |
 | *Recuperação de senha* | Verificar a eficácia do processo de recuperação de senha. | - Facilidade de encontrar a opção.<br>- Tempo total de recuperação.<br>- Conformidade com a heurística de reconhecimento em vez de lembrança. | Observação direta, acompanhamento do processo. | Analisar se o processo é intuitivo e quais os obstáculos encontrados. | Melhorar instruções e visibilidade da opção de recuperação de senha. |
