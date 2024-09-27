@@ -20,7 +20,7 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 ## Wireframes
 
 -MODELO DE TELA LOGIN
-![tela-login](https://github.com/user-attachments/assets/e1d73d67-2cd3-460f-af3b-b2cdb5960bb9)
+> ![tela-login](https://github.com/user-attachments/assets/e1d73d67-2cd3-460f-af3b-b2cdb5960bb9)
 
 -MODELO DE TELA CADASTRO
 ![tela-cadastro](https://github.com/user-attachments/assets/3e766a6b-918f-4a29-badc-dabe8f8297b0)
