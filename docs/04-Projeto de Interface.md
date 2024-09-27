@@ -23,37 +23,37 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 > ![tela-login](https://github.com/user-attachments/assets/e1d73d67-2cd3-460f-af3b-b2cdb5960bb9)
 
 -MODELO DE TELA CADASTRO
-![tela-cadastro](https://github.com/user-attachments/assets/3e766a6b-918f-4a29-badc-dabe8f8297b0)
+> ![tela-cadastro](https://github.com/user-attachments/assets/3e766a6b-918f-4a29-badc-dabe8f8297b0)
 
 -MODELO DE TELA HOME PAGE
-![tela-homepage](https://github.com/user-attachments/assets/fa8cfa2d-01d7-4f7a-a818-fd6c083491ac)
+> ![tela-homepage](https://github.com/user-attachments/assets/fa8cfa2d-01d7-4f7a-a818-fd6c083491ac)
 
 -MODELO DE TELA CRIAR AÇÃO
-![tela-criaracao](https://github.com/user-attachments/assets/1353c8c6-4879-494d-a4d6-d2f9bf080e82)
+> ![tela-criaracao](https://github.com/user-attachments/assets/1353c8c6-4879-494d-a4d6-d2f9bf080e82)
 
 -MODELO DE TELA ADMINISTRAR AÇÃO
-![tela-admacao](https://github.com/user-attachments/assets/2b7a0728-5019-4cc0-adf8-b54d50ead5ac)
+> ![tela-admacao](https://github.com/user-attachments/assets/2b7a0728-5019-4cc0-adf8-b54d50ead5ac)
 
 -MODELO DE TELA INSCRIÇÃO AÇÃO
-![tela-insacao](https://github.com/user-attachments/assets/b0945969-3d7b-4c96-859c-890d9f057b1c)
+> ![tela-insacao](https://github.com/user-attachments/assets/b0945969-3d7b-4c96-859c-890d9f057b1c)
 
 -MODELO DE TELA MINHAS AÇÕES
-![tela-minhasacoes](https://github.com/user-attachments/assets/c122d09b-5339-464b-9547-6806f83a5943)
+> ![tela-minhasacoes](https://github.com/user-attachments/assets/c122d09b-5339-464b-9547-6806f83a5943)
 
 -MODELO DE TELA PERFIL USUÁRIO
-![tela-perfil](https://github.com/user-attachments/assets/acbe5bf8-faf1-4a58-bded-8f3011deb0a3)
+> ![tela-perfil](https://github.com/user-attachments/assets/acbe5bf8-faf1-4a58-bded-8f3011deb0a3)
 
 -MODELO DE TELA PESQUISA
-![tela-pesquisa](https://github.com/user-attachments/assets/6db45bb3-9c5b-4bba-9282-d6f66d9a97c3)
+> ![tela-pesquisa](https://github.com/user-attachments/assets/6db45bb3-9c5b-4bba-9282-d6f66d9a97c3)
 
 -MODELO DE TELA NOTIFICAÇÕES
-![tela-notificacao](https://github.com/user-attachments/assets/e0fcb607-dccc-4b36-96ab-fb4146f85f28)
+> ![tela-notificacao](https://github.com/user-attachments/assets/e0fcb607-dccc-4b36-96ab-fb4146f85f28)
 
 -MODELO DE TELA SUPORTE
-![tela-suporte](https://github.com/user-attachments/assets/8e978912-71f2-4813-83d8-8859dc55a297)
+> ![tela-suporte](https://github.com/user-attachments/assets/8e978912-71f2-4813-83d8-8859dc55a297)
 
 -MODELO DE TELA RELATÓRIO
-![tela-relatorio](https://github.com/user-attachments/assets/e7f39e52-473f-47bd-946a-62e41a630990)
+> ![tela-relatorio](https://github.com/user-attachments/assets/e7f39e52-473f-47bd-946a-62e41a630990)
 
 
 
