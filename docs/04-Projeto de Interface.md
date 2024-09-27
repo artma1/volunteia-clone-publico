@@ -18,19 +18,41 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 > - https://www.figma.com/design/ZSaJEAEkUjheL0CxUMXNi7/Diagrama-de-Fluxo?node-id=0-1&t=bcHjrvP1x0HYa4Ct-1
 
 ## Wireframes
+-MODELO DE TELA LOGIN
+![tela-login](https://github.com/user-attachments/assets/e1d73d67-2cd3-460f-af3b-b2cdb5960bb9)
 
-![WhatsApp Image 2024-09-27 at 10 06 58](https://github.com/user-attachments/assets/634fd11b-3c9a-4108-935a-137a342969e2)
-![WhatsApp Image 2024-09-27 at 10 07 22](https://github.com/user-attachments/assets/40af52f0-b504-4a93-b642-cc9ce3b55565)
-![WhatsApp Image 2024-09-27 at 10 07 43](https://github.com/user-attachments/assets/b9b55886-7c52-4bc9-aa52-ba8219614b51)
-![WhatsApp Image 2024-09-27 at 10 08 04](https://github.com/user-attachments/assets/34f5ea69-f4e8-4b98-a878-c7f59c5c563a)
-![WhatsApp Image 2024-09-27 at 10 08 35](https://github.com/user-attachments/assets/1ade9ee8-fff3-4f31-bff2-f615112e3216)
-![WhatsApp Image 2024-09-27 at 10 08 55](https://github.com/user-attachments/assets/8cf3e896-ad08-4648-b288-2b63eb08cbef)
-![WhatsApp Image 2024-09-27 at 10 09 25](https://github.com/user-attachments/assets/64f29cd9-4568-43c3-b115-900078d2272e)
-![WhatsApp Image 2024-09-27 at 10 09 50](https://github.com/user-attachments/assets/d84cb5a8-2c1f-4e77-8a7a-d9684e8c85ab)
-![WhatsApp Image 2024-09-27 at 10 05 09](https://github.com/user-attachments/assets/c9c5f3e5-74c1-4bbb-84f4-d0c003f03248)
-![WhatsApp Image 2024-09-27 at 10 05 46](https://github.com/user-attachments/assets/7d26b129-bf31-4c3b-aad0-fbafca6e310c)
-![WhatsApp Image 2024-09-27 at 10 06 13](https://github.com/user-attachments/assets/5db13ddd-0e2b-435d-9de5-e7b083f74a8c)
-![WhatsApp Image 2024-09-27 at 10 06 36](https://github.com/user-attachments/assets/fb0349f7-c100-4e82-9b21-9170033ed6e0)
+-MODELO DE TELA CADASTRO
+![tela-cadastro](https://github.com/user-attachments/assets/3e766a6b-918f-4a29-badc-dabe8f8297b0)
+
+-MODELO DE TELA HOME PAGE
+![tela-homepage](https://github.com/user-attachments/assets/fa8cfa2d-01d7-4f7a-a818-fd6c083491ac)
+
+-MODELO DE TELA CRIAR AÇÃO
+![tela-criaracao](https://github.com/user-attachments/assets/1353c8c6-4879-494d-a4d6-d2f9bf080e82)
+
+-MODELO DE TELA ADMINISTRAR AÇÃO
+![tela-admacao](https://github.com/user-attachments/assets/2b7a0728-5019-4cc0-adf8-b54d50ead5ac)
+
+-MODELO DE TELA INSCRIÇÃO AÇÃO
+![tela-insacao](https://github.com/user-attachments/assets/b0945969-3d7b-4c96-859c-890d9f057b1c)
+
+-MODELO DE TELA MINHAS AÇÕES
+![tela-minhasacoes](https://github.com/user-attachments/assets/c122d09b-5339-464b-9547-6806f83a5943)
+
+-MODELO DE TELA PERFIL USUÁRIO
+![tela-perfil](https://github.com/user-attachments/assets/acbe5bf8-faf1-4a58-bded-8f3011deb0a3)
+
+-MODELO DE TELA PESQUISA
+![tela-pesquisa](https://github.com/user-attachments/assets/6db45bb3-9c5b-4bba-9282-d6f66d9a97c3)
+
+-MODELO DE TELA NOTIFICAÇÕES
+![tela-notificacao](https://github.com/user-attachments/assets/e0fcb607-dccc-4b36-96ab-fb4146f85f28)
+
+-MODELO DE TELA SUPORTE
+![tela-suporte](https://github.com/user-attachments/assets/8e978912-71f2-4813-83d8-8859dc55a297)
+
+-MODELO DE TELA RELATÓRIO
+![tela-relatorio](https://github.com/user-attachments/assets/e7f39e52-473f-47bd-946a-62e41a630990)
 
 
 
@@ -39,4 +61,4 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 Esse é o nosso protótipos de interface para sugerir a estrutura do site web que nos propomos a fazer. 
  
 > **Links de Acesso**:
-> - https://www.figma.com/design/YiMwEt8iHAPgrzrbnNKSfL/Wireframe?node-id=0-1&t=zL2TIPbhRxzAZsrz-1
+> - https://www.figma.com/design/YiMwEt8iHAPgrzrbnNKSfL/Wireframe?node-id=0-1&t=FO61xGjXsOH6k9la-1
