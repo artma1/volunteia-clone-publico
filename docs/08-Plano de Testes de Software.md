@@ -90,7 +90,7 @@ Não deixe de enumerar os casos de teste de forma sequencial e de garantir que o
 |:---------------------------------------------------------------:|:---------------------------------------------------------------:|
 |                         **Requisito Associado**                 | RF-12 - A aplicação deve permitir que usuários forneçam feedback ou avaliem os eventos após a participação. |
 |                       **Objetivo do Teste**                     | Verificar se os usuários podem deixar feedback após os eventos.   |
-|                         **Passos**                               | - Acessar o navegador <br> - Realizar login <br> - Participar de evento <br> - Navegar até feedback <br> - Preencher avaliação |
+|                         **Passos**                               | - Acessar o navegador <br> - Realizar login <br> - Navegar até o evento <br> - Preencher avaliação |
 |                     **Critério de Êxito**                       | O feedback foi registrado com sucesso.                          |
 
 |                       **Caso de Teste**                        |                 **CT-13 – Central de ajuda**                   |
