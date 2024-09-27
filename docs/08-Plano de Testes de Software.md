@@ -13,10 +13,8 @@ Não deixe de enumerar os casos de teste de forma sequencial e de garantir que o
 |:----------------------:|:----------------------------------------------------------------------------------------------------------------------:|
 | **Requisito Associado** | RF-01 - A aplicação deve permitir que o usuário se cadastre.                                                          |
 | **Objetivo do Teste**   | Verificar se o usuário consegue se cadastrar na aplicação.                                                            |
-| **Passos**             | - Acessar o navegador <br> - Informar o endereço do site https://adota-pet.herokuapp.com/src/index.html<br> - Clicar em "Criar conta" <br> - Preencher os campos obrigatórios (e-mail, nome, sobrenome, celular, CPF, senha, confirmação de senha) <br> - Aceitar os termos de uso <br> - Clicar em "Registrar" |
+| **Passos**             | - Acessar o navegador <br> - Informar o endereço do site <br> - Clicar em "Criar conta" <br> - Preencher os campos obrigatórios (e-mail, nome, sobrenome, celular, CPF, senha, confirmação de senha) <br> - Aceitar os termos de uso <br> - Clicar em "Registrar" |
 | **Critério de Êxito**   | O cadastro foi realizado com sucesso.                                                                                 |
-
----
 
 | **Caso de Teste**      | **CT-02 – Realizar login**                                                                                             |
 |:----------------------:|:----------------------------------------------------------------------------------------------------------------------:|
