@@ -9,7 +9,7 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
 ## Diagrama de Fluxo
 
-[Captura de tela 2024-09-26 094705](https://github.com/user-attachments/assets/40f8019f-123d-4e1f-b13d-41ea981ace2e)
+![diagrama de Fluxo](https://github.com/user-attachments/assets/40f8019f-123d-4e1f-b13d-41ea981ace2e)
 
 
 
