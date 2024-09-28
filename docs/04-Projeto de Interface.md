@@ -9,13 +9,14 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
 ## Diagrama de Fluxo
 
-![User Flow atualizado](https://github.com/user-attachments/assets/beafa882-5b90-4d9b-abeb-e25f857f1c5f)
+[Captura de tela 2024-09-26 094705](https://github.com/user-attachments/assets/40f8019f-123d-4e1f-b13d-41ea981ace2e)
+
 
 
 
 
 > **Link de Acesso**:
-> - https://www.figma.com/design/ZSaJEAEkUjheL0CxUMXNi7/Diagrama-de-Fluxo?node-id=0-1&t=bcHjrvP1x0HYa4Ct-1
+> - https://app.diagrams.net/#G1tAAEsc0LKD_t8obInHnZ-4hgq6_7LoCx#%7B"pageId"%3A"C5RBs43oDa-KdzZeNtuy"%7D
 
 ## Wireframes
 
