@@ -60,7 +60,7 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
 
 
-Esse é o nosso protótipos de interface para sugerir a estrutura do site web que nos propomos a fazer. 
+Esse é o nosso protótipo de interface para sugerir a estrutura do site web que nos propomos a fazer. 
  
 > **Links de Acesso**:
 > - https://www.figma.com/design/YiMwEt8iHAPgrzrbnNKSfL/Wireframe?node-id=0-1&t=FO61xGjXsOH6k9la-1
