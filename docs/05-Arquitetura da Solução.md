@@ -31,7 +31,6 @@ Diamente: Representa a ação de relacionamento entre as entidades.
 
 O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.
 
-Sugestão de ferramentas para geração deste artefato: LucidChart e Draw.io.
 
 ## Projeto da Base de Dados
 
