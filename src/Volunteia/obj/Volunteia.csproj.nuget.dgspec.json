@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\WorkspaceCSharp\\Volunteia-projeto\\src\\Volunteia\\Volunteia.csproj": {}
+    "C:\\Users\\sharo\\Source\\Repos\\pmv-ads-2024-2-e2-proj-int-t9-conecta-puc\\src\\Volunteia\\Volunteia.csproj": {}
   },
   "projects": {
-    "C:\\WorkspaceCSharp\\Volunteia-projeto\\src\\Volunteia\\Volunteia.csproj": {
+    "C:\\Users\\sharo\\Source\\Repos\\pmv-ads-2024-2-e2-proj-int-t9-conecta-puc\\src\\Volunteia\\Volunteia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\WorkspaceCSharp\\Volunteia-projeto\\src\\Volunteia\\Volunteia.csproj",
+        "projectUniqueName": "C:\\Users\\sharo\\Source\\Repos\\pmv-ads-2024-2-e2-proj-int-t9-conecta-puc\\src\\Volunteia\\Volunteia.csproj",
         "projectName": "Volunteia",
-        "projectPath": "C:\\WorkspaceCSharp\\Volunteia-projeto\\src\\Volunteia\\Volunteia.csproj",
-        "packagesPath": "C:\\Users\\Artur\\.nuget\\packages\\",
-        "outputPath": "C:\\WorkspaceCSharp\\Volunteia-projeto\\src\\Volunteia\\obj\\",
+        "projectPath": "C:\\Users\\sharo\\Source\\Repos\\pmv-ads-2024-2-e2-proj-int-t9-conecta-puc\\src\\Volunteia\\Volunteia.csproj",
+        "packagesPath": "C:\\Users\\sharo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sharo\\Source\\Repos\\pmv-ads-2024-2-e2-proj-int-t9-conecta-puc\\src\\Volunteia\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Artur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sharo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
