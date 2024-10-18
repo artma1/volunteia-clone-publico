@@ -1,16 +1,6 @@
 # Template Padrão da Aplicação
 
-```markdown # Tabela de Cores do Projeto "Volunteia" ## Paleta Primária (Roxo) | Nome | Hex | Aplicação | |--------|---------|------------------------------------------| | Roxo 1 | #5F35FB | Destaques principais, botões de ação. 
-| | Roxo 2 | #7A56FF | Elementos de fundo e ícones secundários. | | Roxo 3 | #916DFF | Botões secundários e destaques. | | Roxo 4 | #A58BFF | Bordas e detalhes finos. | | Roxo 5 | #C2B0FF | Hover e áreas de fundo suave. | 
-**[Imagem de visualização das cores primárias aqui]** --- 
-## Paleta Secundária (Laranja) | Nome | Hex | Aplicação | |-----------|---------|----------------------------------------| | Laranja 1 | #ED8813 | Botões de destaque e CTA. | | Laranja 2 | #F29540 | Ícones e detalhes chamativos. 
-| | Laranja 3 | #F5A764 | Botões hover e fundos contrastantes. | | Laranja 4 | #F7BA8A | Elementos decorativos suaves. | | Laranja 5 | #FACFB0 | Áreas claras e hovers. | 
-**[Imagem de visualização das cores secundárias aqui]** --- 
-## Paleta Neutra | Nome | Hex | Aplicação | |---------------|---------|---------------------------------------------| | Verde Aqua | #00C49A | Elementos de separação e destaques suaves. 
-| | Verde Escuro | #156064 | Fundos de seções secundárias. | | Cinza Verde | #585857 | Textos alternativos e ícones. | | Preto | #000000 | Textos de destaque e títulos importantes. 
-| | Cinza Escuro | #4A4A4A | Textos principais e títulos. | | Cinza Claro | #F2F2F2 | Cor de fundo suave, áreas de descanso visual.| 
-**[Imagem de visualização das cores neutras aqui]** --- ##
-
+```markdown # Tabela de Cores do Projeto "Volunteia" ## Paleta Primária (Roxo) | Nome | Hex | Aplicação | |--------|---------|------------------------------------------| | Roxo 1 | #5F35FB | Destaques principais, botões de ação. | | Roxo 2 | #7A56FF | Elementos de fundo e ícones secundários. | | Roxo 3 | #916DFF | Botões secundários e destaques. | | Roxo 4 | #A58BFF | Bordas e detalhes finos. | | Roxo 5 | #C2B0FF | Hover e áreas de fundo suave. | ![Imagem de visualização das cores primárias](#) --- ## Paleta Secundária (Laranja) | Nome | Hex | Aplicação | |-----------|---------|----------------------------------------| | Laranja 1 | #ED8813 | Botões de destaque e CTA. | | Laranja 2 | #F29540 | Ícones e detalhes chamativos. | | Laranja 3 | #F5A764 | Botões hover e fundos contrastantes. | | Laranja 4 | #F7BA8A | Elementos decorativos suaves. | | Laranja 5 | #FACFB0 | Áreas claras e hovers. | ![Imagem de visualização das cores secundárias](#) --- ## Paleta Neutra | Nome | Hex | Aplicação | |---------------|---------|---------------------------------------------| | Verde Aqua | #00C49A | Elementos de separação e destaques suaves. | | Verde Escuro | #156064 | Fundos de seções secundárias. | | Cinza Verde | #585857 | Textos alternativos e ícones. | | Preto | #000000 | Textos de destaque e títulos importantes. | | Cinza Escuro | #4A4A4A | Textos principais e títulos. | | Cinza Claro | #F2F2F2 | Cor de fundo suave, áreas de descanso visual.| ![Imagem de visualização das cores neutras](#) --- ## Links de imagens Adicione aqui os links ou imagens que deseja utilizar para ilustrar as cores. ``` ###
 > **Links Úteis**:
 >
 > - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
