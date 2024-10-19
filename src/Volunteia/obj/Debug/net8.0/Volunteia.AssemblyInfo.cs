@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Volunteia")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c8d1ab595486582b79c51d23f025616844026167")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d7ea29899bccc2f3a44b1f3407b64bfde696cabb")]
 [assembly: System.Reflection.AssemblyProductAttribute("Volunteia")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Volunteia")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
