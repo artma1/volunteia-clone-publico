@@ -4337,24 +4337,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\sharo\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Artur\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sharo\\Source\\Repos\\pmv-ads-2024-2-e2-proj-int-t9-conecta-puc\\src\\Volunteia\\Volunteia.csproj",
+      "projectUniqueName": "C:\\WorkspaceCSharp\\Volunteia-projeto\\src\\Volunteia\\Volunteia.csproj",
       "projectName": "Volunteia",
-      "projectPath": "C:\\Users\\sharo\\Source\\Repos\\pmv-ads-2024-2-e2-proj-int-t9-conecta-puc\\src\\Volunteia\\Volunteia.csproj",
-      "packagesPath": "C:\\Users\\sharo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sharo\\Source\\Repos\\pmv-ads-2024-2-e2-proj-int-t9-conecta-puc\\src\\Volunteia\\obj\\",
+      "projectPath": "C:\\WorkspaceCSharp\\Volunteia-projeto\\src\\Volunteia\\Volunteia.csproj",
+      "packagesPath": "C:\\Users\\Artur\\.nuget\\packages\\",
+      "outputPath": "C:\\WorkspaceCSharp\\Volunteia-projeto\\src\\Volunteia\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\sharo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Artur\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
