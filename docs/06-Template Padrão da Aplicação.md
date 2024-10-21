@@ -1,22 +1,58 @@
 # Template Padrão da Aplicação
 
-| <img src="https://github.com/user-attachments/assets/9b396aa0-9dd7-4849-8203-a9c9af491bb2" width="600" /> | *Nome:* João Pedro Martins  <br> *Idade:* 35 anos  <br> *Profissão:* Engenheiro Ambiental  <br> *Localização:* Curitiba, Brasil  <br> *Formação:* Graduação em Engenharia Ambiental  <br> *Objetivo:* Organizar mutirões para reflorestamento e recuperação de áreas degradadas |
-|-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| *Descrição*                       | João Pedro é um engenheiro ambiental dedicado que trabalha em uma empresa de consultoria ecológica. Apaixonado por conservação ambiental, ele deseja mobilizar pessoas em torno de projetos de reflorestamento e recuperação de áreas afetadas por desastres naturais. Ele busca formas eficientes de engajar voluntários e atrair patrocinadores para seus projetos. |
-| *Dores*                           | João enfrenta dificuldades para encontrar uma plataforma que facilite a organização e divulgação de seus projetos. Ele também tem dificuldades em atrair voluntários comprometidos e em conseguir patrocínios suficientes para cobrir os custos das operações.                                                                                                               |
-| *Expectativas*                    | João espera encontrar uma plataforma que ofereça ferramentas práticas para organizar e divulgar seus mutirões. Ele deseja um sistema que permita o cadastro de patrocinadores e a gestão de recursos de forma transparente e eficiente, garantindo o sucesso de suas ações.                                                                                               |
+## Paleta Primária (Roxo) 
+| Nome | Hex | Aplicação |
+|-----------|---------|----------------------------------------| 
+| Roxo 1 | #5F35FB  | Destaques principais, botões de ação. | 
+| Roxo 2 | #7A56FF | Elementos de fundo e ícones secundários. | 
+| Roxo 3 | #916DFF | Botões secundários e destaques. | 
+| Roxo 4 | #A58BFF | Bordas e detalhes finos. | 
+| Roxo 5 | #C2B0FF | Hover e áreas de fundo suave.. | 
 
-``markdown# Tabela de Cores do Projeto "Volunteia" ## Paleta Primária (Roxo) | Nome | Hex | Aplicação | |--------|---------|------------------------------------------| | Roxo 1 | #5F35FB | Destaques principais, botões de ação. | | Roxo 2 | #7A56FF | Elementos de fundo e ícones secundários.| | Roxo 3 | #916DFF | Botões secundários e destaques. | | Roxo 4 | #A58BFF | Bordas e detalhes finos. | | Roxo 5 | #C2B0FF | Hover e áreas de fundo suave. | ![Imagem de visualização das cores primárias](#) --- ## Paleta Secundária (Laranja) | Nome | Hex | Aplicação | |-----------|---------|----------------------------------------| | Laranja 1 | #ED8813 | Botões de destaque e CTA. | | Laranja 2 | #F29540 | Ícones e detalhes chamativos. | | Laranja 3 | #F5A764 | Botões hover e fundos contrastantes. | | Laranja 4 | #F7BA8A | Elementos decorativos suaves. | | Laranja 5 | #FACFB0 | Áreas claras e hovers. | ![Imagem de visualização das cores secundárias](#) --- ## Paleta Neutra | Nome | Hex | Aplicação | |---------------|---------|---------------------------------------------| | Verde Aqua | #00C49A | Elementos de separação e destaques suaves. | | Verde Escuro | #156064 | Fundos de seções secundárias. | | Cinza Verde | #585857 | Textos alternativos e ícones. | | Preto | #000000 | Textos de destaque e títulos importantes. | | Cinza Escuro | #4A4A4A | Textos principais e títulos. | | Cinza Claro | #F2F2F2 | Cor de fundo suave, áreas de descanso visual.| ![Imagem de visualização das cores neutras](#) --- ## Links de imagens Adicione aqui os links ou imagens que deseja utilizar para ilustrar as cores. ``` ###
+![Texto do seu parágrafo](https://github.com/user-attachments/assets/a94a39a3-a3b0-42c5-891a-303b85a9ad1d)
+
+--- 
+
+## Paleta Secundária (Laranja) 
+| Nome | Hex | Aplicação |
+|-----------|---------|----------------------------------------| 
+| Laranja 1 | #ED8813 | Botões de destaque e CTA. | 
+| Laranja 2 | #F29540 | Ícones e detalhes chamativos. | 
+| Laranja 3 | #F5A764 | Botões hover e fundos contrastantes. | 
+| Laranja 4 | #F7BA8A | Elementos decorativos suaves. | 
+| Laranja 5 | #FACFB0 | Áreas claras e hovers. | 
+
+![Texto do seu parágrafo (1)](https://github.com/user-attachments/assets/96b55983-e166-4d38-b25e-3743f9034725)
+
+--- 
+
+## Paleta Neutra
+| Nome | Hex | Aplicação | 
+|---------------|---------|---------------------------------------------| 
+| Preto | #000000 | Textos de destaque e títulos importantes. | 
+| Cinza Escuro | #4A4A4A | Textos principais e títulos. | 
+| Cinza Verde | #585857 | Textos alternativos e ícones. |
+| Verde Escuro | #156064 | Fundos de seções secundárias. |  
+| Verde Aqua | #00C49A | Elementos de separação e destaques suaves. | 
+| Cinza Claro | #F2F2F2 | Cor de fundo suave, áreas de descanso visual.| 
+
+![Texto do seu parágrafo (3)](https://github.com/user-attachments/assets/2713366c-c722-4eda-b525-803d3a263d24)
+
+---
+
+### Tipografia 
+#### Fontes - **Fonte Principal:** Open Sans - **Fonte Secundária:** Big Shoulders Display 
+#### Tamanhos e Pesos para H1 a H6 
+| Cabeçalho | Fonte | Tamanho (px) | Peso | Aplicação |
+|-----------|--------------------------|--------------|--------|--------------------------------| 
+| H1 | Big Shoulders Display | 36 | Bold | Título principal | 
+| H2 | Big Shoulders Display | 30 | Bold | Subtítulo de seção | 
+| H3 | Open Sans | 24 | Semibold | Título de subseção | 
+| H4 | Open Sans | 20 | Semibold | Destaques ou informações relevantes | 
+| H5 | Open Sans | 18 | Regular | Títulos menores | 
+H6 | Open Sans | 16 | Regular | Texto de rodapé ou notas | 
+
+###
 
 --
 
-### Tipografia #### Fontes - **Fonte Principal:** Open Sans - **Fonte Secundária:** Big Shoulders Display #### Tamanhos e Pesos para H1 a H6 | Cabeçalho | Fonte | Tamanho (px) | Peso | Aplicação | |-----------|--------------------------|--------------|--------|--------------------------------| | H1 | Big Shoulders Display | 36 | Bold | Título principal | | H2 | Big Shoulders Display | 30 | Bold | Subtítulo de seção | | H3 | Open Sans | 24 | Semibold | Título de subseção | | H4 | Open Sans | 20 | Semibold | Destaques ou informações relevantes | | H5 | Open Sans | 18 | Regular | Títulos menores | | H6 | Open Sans | 16 | Regular | Texto de rodapé ou notas | ###
-
---
-
-> **Links Úteis**:
->
-> - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
-> - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
-> - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
-> - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
