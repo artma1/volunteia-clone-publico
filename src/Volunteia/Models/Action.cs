@@ -34,7 +34,7 @@ public class Action
 
     [Required(ErrorMessage = "Informe a ODS")]
     [Display(Name = "ODS")]
-    public TipoODS Tipo { get; set; }
+    public TipoODS ODS { get; set; }
 
     [Required(ErrorMessage = "Informe o número aproximado de voluntários")]
     [Display(Name = "Número de voluntários esperado")]
