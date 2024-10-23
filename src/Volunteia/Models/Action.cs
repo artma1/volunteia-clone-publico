@@ -16,7 +16,7 @@ public class Action
     [Key]
     public int Id { get; set; }
 
-    [Required(ErrorMessage = "Selecione uma foto para a ação")]
+   // [Required(ErrorMessage = "Selecione uma foto para a ação")]
     [Display(Name = "Foto")]
     public byte[] Foto { get; set; }
 
