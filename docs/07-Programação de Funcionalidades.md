@@ -10,8 +10,8 @@ Por exemplo: a tabela a seguir deverá ser preenchida considerando os artefatos 
 |------|-----------------------------------------|----|----|
 |RF-01| A aplicação deve permitir que o usuário se cadastre.  |  |  Brendo |
 |RF-02| A aplicação deve permitir que o usuário realize login.     |  |Brendo |
-|RF-03| A aplicação deve permitir criar diferentes tipos de usuários (instituição, pessoal).  |  |Artur|
-|RF-04| A aplicação deve permitir que o usuário edite seu perfil.  |  |Artur |
+|RF-03| A aplicação deve permitir criar diferentes tipos de usuários (instituição, pessoal).  | 3 |Artur|
+|RF-04| A aplicação deve permitir que o usuário edite seu perfil.  | 2 |Artur |
 |RF-05| A aplicação deve permitir que o usuário cadastre e gerencie eventos.  |  | Sharon|
 |RF-06| A aplicação deve permitir que os usuários entrem em eventos criados.   |  |Sharon|
 |RF-07| A aplicação deve gerar relatórios de participação nos eventos e impacto social.  |  | Lucy|
