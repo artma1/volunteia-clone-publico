@@ -7,7 +7,7 @@ namespace Volunteia.Models
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
          public DbSet<Action> Actions { get; set; }
-        public DbSet<Action> User { get; set; }
+        public DbSet<User> Users { get; set; }
     }
     }
 

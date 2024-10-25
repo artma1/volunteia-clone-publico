@@ -58,7 +58,7 @@ namespace Volunteia.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Action");
+                    b.ToTable("Action", (string)null);
                 });
 #pragma warning restore 612, 618
         }
