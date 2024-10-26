@@ -2,18 +2,21 @@
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Reflection.Metadata;
 
 
 namespace Volunteia.Models;
 
-    
-     [Table("Action")]
+[Table("Actions")]
 
 public class Action
 
 {
     [Key]
-    public int Id { get; set; }
+    public int ActionId { get; set; }
+
+    public int UserId { get; set; }
+    public User User { get; set; }
 
     [Required(ErrorMessage = "Selecione uma foto para a ação")]
     [Display(Name = "Foto")]
@@ -21,33 +24,37 @@ public class Action
 
     [Required(ErrorMessage = "Informe o nome")]
     [Display(Name = "Nome")]
-    public string Nome { get; set; }
+    public string Name { get; set; }
 
-    public Patrocinio Patrocinador { get; set; }
+    public bool Patrocinador { get; set; }
 
     [Required(ErrorMessage = "Informe a data")]
-    public DateTime Data { get; set; }
+    public DateTime ActionDate { get; set; }
 
     [Required(ErrorMessage = "Informe a descrição")]
     [Display(Name = "Descrição")]
-    public string Descricao { get; set; }
+    public string ActionBio { get; set; }
 
     [Required(ErrorMessage = "Informe a ODS")]
     [Display(Name = "ODS")]
-    public TipoODS Tipo { get; set; }
+    public TipoODS ODS { get; set; }
+
+    public List<User> ActionAdmin  { get; set; } = new List<User>();
+   
+
+    public List<User> VonluteersList { get; set; } = new List<User>();
 
     [Required(ErrorMessage = "Informe o número aproximado de voluntários")]
     [Display(Name = "Número de voluntários esperado")]
-    public int NumVonlutarios { get; set; }
+    public int VonlunteersTotal { get; set; }
 
     [Required(ErrorMessage = "Informe o número de estimativa de pessoas alcançadas")]
-    [Display(Name = "Número estimativa")]
-    public int alcance { get; set; }
+    [Display(Name = "Estimativa de pessoas alcançadas ")]
+    public int NumberOfPeopleHelped { get; set; }
+    public List<User> Sponsor { get; set; } = new List<User>();
 
-    
-
+    public int Rate { get; set; }
 }
-
 
 public enum TipoODS
 {
@@ -88,8 +95,4 @@ public enum TipoODS
 }
 
 
-public enum Patrocinio
-{
-    Sim,
-    Não
-}
+

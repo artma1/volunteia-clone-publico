@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace Volunteia.Models
 {
     [Table("User")]
-    public abstract class User
+    public class User
     {
         [Key]
         public int Id { get; set; }
