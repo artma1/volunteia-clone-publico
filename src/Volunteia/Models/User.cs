@@ -10,16 +10,16 @@ namespace Volunteia.Models
         [Key]
         public int Id { get; set; }
         [Required(ErrorMessage = "Obrigatório informar seu nome.")]
-        [MaxLength(200)]
+        [MaxLength(100)]
         [Display(Name ="Nome")]
         public string Name { get; set; }
         public int NumberOfActions { get; set; }
         public ICollection<Action> ActionLog { get; set; }
         [Required(ErrorMessage = "Obrigatório informar seu email.")]
-        [MaxLength(200)]
+        [MaxLength(100)]
         public string Email { get; set; }
         [Required(ErrorMessage = "Obrigatório informar seu telefone.")]
-        [MaxLength(200)]
+        [MaxLength(50)]
         [Display(Name = "Telefone")]
         public string Phone { get; set; }
         public bool IsRestricted { get; set; }
