@@ -4,11 +4,11 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Volunteia.Models
 {
-    [Table("Users")]
+    [Table("User")]
     public class User
     {
         [Key]
-        public int UserId { get; set; }
+        public int Id { get; set; }
         [Required(ErrorMessage = "Obrigatório informar seu nome.")]
         [MaxLength(200)]
         [Display(Name ="Nome")]
