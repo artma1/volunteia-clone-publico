@@ -4,6 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 
+
 namespace Volunteia.Models;
 
     
@@ -15,7 +16,7 @@ public class Action
     [Key]
     public int Id { get; set; }
 
-    [Required(ErrorMessage = "Selecione uma foto para a ação")]
+   // [Required(ErrorMessage = "Selecione uma foto para a ação")]
     [Display(Name = "Foto")]
     public byte[] Foto { get; set; }
 
@@ -34,7 +35,7 @@ public class Action
 
     [Required(ErrorMessage = "Informe a ODS")]
     [Display(Name = "ODS")]
-    public TipoODS Tipo { get; set; }
+    public TipoODS ODS { get; set; }
 
     [Required(ErrorMessage = "Informe o número aproximado de voluntários")]
     [Display(Name = "Número de voluntários esperado")]
@@ -44,7 +45,7 @@ public class Action
     [Display(Name = "Número estimativa")]
     public int alcance { get; set; }
 
-    
+   
 
 }
 
