@@ -10,8 +10,8 @@ Por exemplo: a tabela a seguir deverá ser preenchida considerando os artefatos 
 |------|-----------------------------------------|----|----|
 |RF-01| A aplicação deve permitir que o usuário se cadastre.  |  |  Brendo |
 |RF-02| A aplicação deve permitir que o usuário realize login.     |  |Brendo |
-|RF-03| A aplicação deve permitir criar diferentes tipos de usuários (instituição, pessoal).  | 3 |Artur|
-|RF-04| A aplicação deve permitir que o usuário edite seu perfil.  | 2 |Artur |
+|RF-03| A aplicação deve permitir criar diferentes tipos de usuários (instituição, pessoal).  | User.cs UsersController |Artur|
+|RF-04| A aplicação deve permitir que o usuário edite seu perfil.  | UsersController Edit.cshtml |Artur |
 |RF-05| A aplicação deve permitir que o usuário cadastre e gerencie eventos.  |  | Sharon|
 |RF-06| A aplicação deve permitir que os usuários entrem em eventos criados.   |  |Sharon|
 |RF-07| A aplicação deve gerar relatórios de participação nos eventos e impacto social.  |  | Lucy|
@@ -20,7 +20,7 @@ Por exemplo: a tabela a seguir deverá ser preenchida considerando os artefatos 
 |RF-10| A aplicação deve gerar certificado de participação em evento.  |  |Lucy|
 |RF-11| A aplicação deve permitir a personalização de temas ou layout pelos usuários.  |  ||
 |RF-12| A aplicação deve permitir que usuários forneçam feedback ou avaliem os eventos após a participação.  |  ||
-|RF-13| A aplicação deve possuir uma central de ajuda e FAQs com tutoriais e documentação.  |  ||
+|RF-13| A aplicação deve possuir uma central de ajuda e FAQs com tutoriais e documentação.  | FAQ.cshtml |Artur|
 |RF-14| A aplicação deve permitir o compartilhamento de eventos em redes sociais.  |  ||
 |RF-15| A aplicação deve moderar a criação de ações voluntárias. |  ||
 |RF-16| A aplicação deve utilizar IA para sugerir eventos ao usuário. |  ||
