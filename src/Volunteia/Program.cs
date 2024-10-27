@@ -3,34 +3,43 @@ using Volunteia.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-builder.Services.AddControllersWithViews();
+// Adiciona os serviços ao contêiner
+builder.Services.AddControllersWithViews(); // Para suporte a MVC
 
+// Adiciona suporte à compilação em tempo de execução para Razor Pages
 builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
 
+// Configura o contexto do banco de dados com a string de conexão
 builder.Services.AddDbContext<AppDbContext>(options =>
-  options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// Configuração do pipeline de requisições HTTP
 if (!app.Environment.IsDevelopment())
 {
+    // Configura o manipulador de exceções para ambientes de produção
     app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-    app.UseHsts();
+    app.UseHsts(); // HSTS padrão para 30 dias, pode ser ajustado
 }
 
-app.UseHttpsRedirection();
-app.UseStaticFiles();
+app.UseHttpsRedirection(); // Redireciona HTTP para HTTPS
+app.UseStaticFiles(); // Permite servir arquivos estáticos
 
-app.UseRouting();
+app.UseRouting(); // Habilita o roteamento
 
-app.UseAuthorization();
+app.UseAuthorization(); // Habilita a autorização
 
+// Configuração das rotas padrão
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
-app.Run();
+// Inicializa o banco de dados e aplica migrações pendentes
+using (var scope = app.Services.CreateScope())
+{
+    var dbContext = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+    dbContext.Database.Migrate(); // Aplica migrações pendentes
+}
+
+app.Run(); // Inicia a aplicação

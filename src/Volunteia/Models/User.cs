@@ -15,9 +15,15 @@ namespace Volunteia.Models
         public string Name { get; set; }
         [Display(Name = "Número de ações")]
         public int NumberOfActions { get; set; }
+<<<<<<< HEAD
         public ICollection<Action> ActionLog { get; set; }
         [Required(ErrorMessage = "Obrigatório informar o email.")]
         [MaxLength(100)]
+=======
+        public ICollection<UserAction> ActionLog { get; set; }
+        [Required(ErrorMessage = "Obrigatório informar seu email.")]
+        [MaxLength(200)]
+>>>>>>> feature/ModelAction
         public string Email { get; set; }
         [Required(ErrorMessage = "Obrigatório informar o telefone.")]
         [MaxLength(50)]
@@ -45,7 +51,7 @@ namespace Volunteia.Models
         [Display(Name = "Tipo de usuário")]
         public UserStatus UserStatus { get; set; }
 
-        public ICollection<Action> Action;
+        public ICollection<UserAction> Action;
     }
 
     public enum UserStatus
