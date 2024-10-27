@@ -12,8 +12,8 @@ using Volunteia.Models;
 namespace Volunteia.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20241026234751_M01-CreateTableUserActions")]
-    partial class M01CreateTableUserActions
+    [Migration("20241027124119_teste3")]
+    partial class teste3
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -25,63 +25,13 @@ namespace Volunteia.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("Volunteia.Models.Action", b =>
-                {
-                    b.Property<int>("ActionId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ActionId"));
-
-                    b.Property<string>("ActionBio")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime>("ActionDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int>("ActionStatus")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Foto")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("NumberOfPeopleHelped")
-                        .HasColumnType("int");
-
-                    b.Property<int>("ODS")
-                        .HasColumnType("int");
-
-                    b.Property<bool>("Patrocinador")
-                        .HasColumnType("bit");
-
-                    b.Property<int>("Rate")
-                        .HasColumnType("int");
-
-                    b.Property<int>("UserId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("VolunteersTotal")
-                        .HasColumnType("int");
-
-                    b.HasKey("ActionId");
-
-                    b.HasIndex("UserId");
-
-                    b.ToTable("UserActions");
-                });
-
             modelBuilder.Entity("Volunteia.Models.User", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("UserId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("UserId"));
 
                     b.Property<string>("Email")
                         .IsRequired()
@@ -113,12 +63,59 @@ namespace Volunteia.Migrations
                     b.Property<int>("UserStatus")
                         .HasColumnType("int");
 
-                    b.HasKey("Id");
+                    b.HasKey("UserId");
 
-                    b.ToTable("User");
+                    b.ToTable("Users");
                 });
 
-            modelBuilder.Entity("Volunteia.Models.Action", b =>
+            modelBuilder.Entity("Volunteia.Models.UserAction", b =>
+                {
+                    b.Property<int>("ActionId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ActionId"));
+
+                    b.Property<string>("ActionBio")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("ActionDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("ActionStatus")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("NumberOfPeopleHelped")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ODS")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("Patrocinador")
+                        .HasColumnType("bit");
+
+                    b.Property<int>("Rate")
+                        .HasColumnType("int");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("VolunteersTotal")
+                        .HasColumnType("int");
+
+                    b.HasKey("ActionId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("UserActions");
+                });
+
+            modelBuilder.Entity("Volunteia.Models.UserAction", b =>
                 {
                     b.HasOne("Volunteia.Models.User", "User")
                         .WithMany("ActionLog")

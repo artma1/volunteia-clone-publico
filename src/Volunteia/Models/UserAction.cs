@@ -14,14 +14,10 @@ namespace Volunteia.Models
         [Key] // Define a propriedade como chave primária
         public int ActionId { get; set; } // Identificador único da ação
 
-        [ForeignKey("User")] // Define a relação de chave estrangeira com a tabela de Usuários
-        public int UserId { get; set; } // Identificador do usuário associado à ação
-        public User User { get; set; } // Propriedade de navegação para o usuário
-
-        [Display(Name = "Foto")] // Nome que será exibido na interface
+       // [ForeignKey("User")] // Define a relação de chave estrangeira com a tabela de Usuários
+        // public int UserId { get; set; } // Identificador do usuário associado à ação
+       //  public User User { get; set; } // Propriedade de navegação para o usuário
         
-       public byte[] Foto { get; set; } // Foto da ação
-
         [Required(ErrorMessage = "Informe o nome")] // Validação obrigatória
         [Display(Name = "Nome")] // Nome a ser exibido
         public string Name { get; set; } // Nome da ação

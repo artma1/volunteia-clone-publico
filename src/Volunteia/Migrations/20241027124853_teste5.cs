@@ -5,35 +5,29 @@
 namespace Volunteia.Migrations
 {
     /// <inheritdoc />
-    public partial class M04UpdateClassUser : Migration
+    public partial class teste5 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropForeignKey(
-                name: "FK_UserActions_User_UserId",
+                name: "FK_UserActions_Users_UserId",
                 table: "UserActions");
 
-            migrationBuilder.DropPrimaryKey(
-                name: "PK_User",
-                table: "User");
-
-            migrationBuilder.RenameTable(
-                name: "User",
-                newName: "Users");
-
-            migrationBuilder.AddPrimaryKey(
-                name: "PK_Users",
-                table: "Users",
-                column: "UserId");
+            migrationBuilder.AlterColumn<int>(
+                name: "UserId",
+                table: "UserActions",
+                type: "int",
+                nullable: true,
+                oldClrType: typeof(int),
+                oldType: "int");
 
             migrationBuilder.AddForeignKey(
                 name: "FK_UserActions_Users_UserId",
                 table: "UserActions",
                 column: "UserId",
                 principalTable: "Users",
-                principalColumn: "UserId",
-                onDelete: ReferentialAction.Cascade);
+                principalColumn: "UserId");
         }
 
         /// <inheritdoc />
@@ -43,24 +37,21 @@ namespace Volunteia.Migrations
                 name: "FK_UserActions_Users_UserId",
                 table: "UserActions");
 
-            migrationBuilder.DropPrimaryKey(
-                name: "PK_Users",
-                table: "Users");
-
-            migrationBuilder.RenameTable(
-                name: "Users",
-                newName: "User");
-
-            migrationBuilder.AddPrimaryKey(
-                name: "PK_User",
-                table: "User",
-                column: "UserId");
+            migrationBuilder.AlterColumn<int>(
+                name: "UserId",
+                table: "UserActions",
+                type: "int",
+                nullable: false,
+                defaultValue: 0,
+                oldClrType: typeof(int),
+                oldType: "int",
+                oldNullable: true);
 
             migrationBuilder.AddForeignKey(
-                name: "FK_UserActions_User_UserId",
+                name: "FK_UserActions_Users_UserId",
                 table: "UserActions",
                 column: "UserId",
-                principalTable: "User",
+                principalTable: "Users",
                 principalColumn: "UserId",
                 onDelete: ReferentialAction.Cascade);
         }

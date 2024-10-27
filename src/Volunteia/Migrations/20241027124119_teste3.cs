@@ -5,7 +5,7 @@
 namespace Volunteia.Migrations
 {
     /// <inheritdoc />
-    public partial class M07UpdateFotoColumn : Migration
+    public partial class teste3 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

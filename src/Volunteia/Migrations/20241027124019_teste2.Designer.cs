@@ -12,8 +12,8 @@ using Volunteia.Models;
 namespace Volunteia.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20241027000824_M04-UpdateClassUser")]
-    partial class M04UpdateClassUser
+    [Migration("20241027124019_teste2")]
+    partial class teste2
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -85,9 +85,6 @@ namespace Volunteia.Migrations
 
                     b.Property<int>("ActionStatus")
                         .HasColumnType("int");
-
-                    b.Property<string>("Foto")
-                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
                         .IsRequired()

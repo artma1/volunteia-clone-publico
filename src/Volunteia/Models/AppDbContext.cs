@@ -14,10 +14,11 @@ namespace Volunteia.Models
         public DbSet<User> Users { get; set; }
 
         // Override do método OnModelCreating se precisar de configurações adicionais
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            base.OnModelCreating(modelBuilder);
-            // Configurações adicionais, se necessário
+            
         }
+
     }
 }

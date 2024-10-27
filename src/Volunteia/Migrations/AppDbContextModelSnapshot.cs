@@ -83,9 +83,6 @@ namespace Volunteia.Migrations
                     b.Property<int>("ActionStatus")
                         .HasColumnType("int");
 
-                    b.Property<byte[]>("Foto")
-                        .HasColumnType("varbinary(max)");
-
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -102,7 +99,7 @@ namespace Volunteia.Migrations
                     b.Property<int>("Rate")
                         .HasColumnType("int");
 
-                    b.Property<int>("UserId")
+                    b.Property<int?>("UserId")
                         .HasColumnType("int");
 
                     b.Property<int>("VolunteersTotal")
@@ -117,13 +114,9 @@ namespace Volunteia.Migrations
 
             modelBuilder.Entity("Volunteia.Models.UserAction", b =>
                 {
-                    b.HasOne("Volunteia.Models.User", "User")
+                    b.HasOne("Volunteia.Models.User", null)
                         .WithMany("ActionLog")
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("User");
+                        .HasForeignKey("UserId");
                 });
 
             modelBuilder.Entity("Volunteia.Models.User", b =>

@@ -5,7 +5,7 @@
 namespace Volunteia.Migrations
 {
     /// <inheritdoc />
-    public partial class M02UpdateClassUserActions : Migration
+    public partial class teste2 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

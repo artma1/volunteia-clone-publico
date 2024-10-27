@@ -12,8 +12,8 @@ using Volunteia.Models;
 namespace Volunteia.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20241026235424_M02-UpdateClassUserActions")]
-    partial class M02UpdateClassUserActions
+    [Migration("20241027124853_teste5")]
+    partial class teste5
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -27,11 +27,11 @@ namespace Volunteia.Migrations
 
             modelBuilder.Entity("Volunteia.Models.User", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("UserId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("UserId"));
 
                     b.Property<string>("Email")
                         .IsRequired()
@@ -63,9 +63,9 @@ namespace Volunteia.Migrations
                     b.Property<int>("UserStatus")
                         .HasColumnType("int");
 
-                    b.HasKey("Id");
+                    b.HasKey("UserId");
 
-                    b.ToTable("User");
+                    b.ToTable("Users");
                 });
 
             modelBuilder.Entity("Volunteia.Models.UserAction", b =>
@@ -86,9 +86,6 @@ namespace Volunteia.Migrations
                     b.Property<int>("ActionStatus")
                         .HasColumnType("int");
 
-                    b.Property<string>("Foto")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -105,7 +102,7 @@ namespace Volunteia.Migrations
                     b.Property<int>("Rate")
                         .HasColumnType("int");
 
-                    b.Property<int>("UserId")
+                    b.Property<int?>("UserId")
                         .HasColumnType("int");
 
                     b.Property<int>("VolunteersTotal")
@@ -120,13 +117,9 @@ namespace Volunteia.Migrations
 
             modelBuilder.Entity("Volunteia.Models.UserAction", b =>
                 {
-                    b.HasOne("Volunteia.Models.User", "User")
+                    b.HasOne("Volunteia.Models.User", null)
                         .WithMany("ActionLog")
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("User");
+                        .HasForeignKey("UserId");
                 });
 
             modelBuilder.Entity("Volunteia.Models.User", b =>

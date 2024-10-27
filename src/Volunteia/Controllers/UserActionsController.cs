@@ -21,8 +21,7 @@ namespace Volunteia.Controllers
         // GET: UserActions
         public async Task<IActionResult> Index()
         {
-            var appDbContext = _context.UserActions.Include(u => u.User);
-            return View(await appDbContext.ToListAsync());
+            return View(await _context.UserActions.ToListAsync());
         }
 
         // GET: UserActions/Details/5
@@ -34,7 +33,6 @@ namespace Volunteia.Controllers
             }
 
             var userAction = await _context.UserActions
-                .Include(u => u.User)
                 .FirstOrDefaultAsync(m => m.ActionId == id);
             if (userAction == null)
             {
@@ -47,7 +45,6 @@ namespace Volunteia.Controllers
         // GET: UserActions/Create
         public IActionResult Create()
         {
-            ViewData["UserId"] = new SelectList(_context.Users, "Id", "Email");
             return View();
         }
 
@@ -56,44 +53,17 @@ namespace Volunteia.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ActionId,UserId,Foto,Name,Patrocinador,ActionDate,ActionBio,ODS,ActionStatus,VolunteersTotal,NumberOfPeopleHelped,Rate")] UserAction userAction, IFormFile Foto)
+        public async Task<IActionResult> Create([Bind("ActionId,Name,Patrocinador,ActionDate,ActionBio,ODS,ActionStatus,VolunteersTotal,NumberOfPeopleHelped,Rate")] UserAction userAction)
         {
+            if (ModelState.IsValid)
             {
-                if (Foto != null && Foto.Length > 0)
-                {
-                    using (var ms = new MemoryStream())
-                    {
-                        await Foto.CopyToAsync(ms);
-                        userAction.Foto = ms.ToArray();
-                    }
-                }
-
-                if (ModelState.IsValid)
-                {
-                    try
-                    {
-                        var user = await _context.Users.FindAsync(userAction.UserId);
-                        if (user == null)
-                        {
-                            ModelState.AddModelError("UserId", "Invalid UserId");
-                            ViewData["UserId"] = new SelectList(_context.Users, "Id", "Email", userAction.UserId);
-                            return View(userAction);
-                        }
-
-                        _context.UserActions.Add(userAction);
-                        await _context.SaveChangesAsync();
-                        return RedirectToAction(nameof(Index));
-                    }
-                    catch (Exception ex)
-                    {
-                        ModelState.AddModelError(string.Empty, $"An error occurred: {ex.Message}");
-                    }
-                }
-
-                ViewData["UserId"] = new SelectList(_context.Users, "Id", "Email", userAction.UserId);
-                return View(userAction);
+                _context.Add(userAction);
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
             }
+            return View(userAction);
         }
+
         // GET: UserActions/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
@@ -107,7 +77,6 @@ namespace Volunteia.Controllers
             {
                 return NotFound();
             }
-            ViewData["UserId"] = new SelectList(_context.Users, "Id", "Email", userAction.UserId);
             return View(userAction);
         }
 
@@ -116,7 +85,7 @@ namespace Volunteia.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ActionId,UserId,Foto,Name,Patrocinador,ActionDate,ActionBio,ODS,ActionStatus,VolunteersTotal,NumberOfPeopleHelped,Rate")] UserAction userAction)
+        public async Task<IActionResult> Edit(int id, [Bind("ActionId,Name,Patrocinador,ActionDate,ActionBio,ODS,ActionStatus,VolunteersTotal,NumberOfPeopleHelped,Rate")] UserAction userAction)
         {
             if (id != userAction.ActionId)
             {
@@ -143,7 +112,6 @@ namespace Volunteia.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["UserId"] = new SelectList(_context.Users, "Id", "Email", userAction.UserId);
             return View(userAction);
         }
 
@@ -156,7 +124,6 @@ namespace Volunteia.Controllers
             }
 
             var userAction = await _context.UserActions
-                .Include(u => u.User)
                 .FirstOrDefaultAsync(m => m.ActionId == id);
             if (userAction == null)
             {
