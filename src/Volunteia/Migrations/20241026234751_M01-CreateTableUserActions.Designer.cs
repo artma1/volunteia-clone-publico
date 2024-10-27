@@ -12,8 +12,8 @@ using Volunteia.Models;
 namespace Volunteia.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20241026171706_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20241026234751_M01-CreateTableUserActions")]
+    partial class M01CreateTableUserActions
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -40,22 +40,27 @@ namespace Volunteia.Migrations
                     b.Property<DateTime>("ActionDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("Alcance")
+                    b.Property<int>("ActionStatus")
                         .HasColumnType("int");
 
-                    b.Property<byte[]>("Foto")
-                        .IsRequired()
-                        .HasColumnType("varbinary(max)");
+                    b.Property<string>("Foto")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("NumberOfPeopleHelped")
+                        .HasColumnType("int");
 
                     b.Property<int>("ODS")
                         .HasColumnType("int");
 
                     b.Property<bool>("Patrocinador")
                         .HasColumnType("bit");
+
+                    b.Property<int>("Rate")
+                        .HasColumnType("int");
 
                     b.Property<int>("UserId")
                         .HasColumnType("int");
@@ -67,7 +72,7 @@ namespace Volunteia.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("Actions");
+                    b.ToTable("UserActions");
                 });
 
             modelBuilder.Entity("Volunteia.Models.User", b =>

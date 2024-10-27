@@ -5,11 +5,11 @@ using System.ComponentModel.DataAnnotations.Schema; // Necessário para a config
 
 // Namespace que organiza as classes relacionadas ao modelo da aplicação
 namespace Volunteia.Models
-{  
+{
 
     // Classe que representa uma ação no sistema
-    [Table("Actions")] // Define o nome da tabela no banco de dados
-    public class Action
+    [Table("UserActions")] // Define o nome da tabela no banco de dados
+    public class UserAction
     {
         [Key] // Define a propriedade como chave primária
         public int ActionId { get; set; } // Identificador único da ação
@@ -18,14 +18,15 @@ namespace Volunteia.Models
         public int UserId { get; set; } // Identificador do usuário associado à ação
         public User User { get; set; } // Propriedade de navegação para o usuário
 
-        [Required(ErrorMessage = "Selecione uma foto para a ação")] // Validação obrigatória
         [Display(Name = "Foto")] // Nome que será exibido na interface
-        public byte[] Foto { get; set; } // Foto da ação
+        
+       public byte[] Foto { get; set; } // Foto da ação
 
         [Required(ErrorMessage = "Informe o nome")] // Validação obrigatória
         [Display(Name = "Nome")] // Nome a ser exibido
         public string Name { get; set; } // Nome da ação
 
+        [Display(Name = "Aberto a patrocinador?")]
         public bool Patrocinador { get; set; } // Indica se a ação tem patrocinador
 
         [Required(ErrorMessage = "Informe a data")] // Validação obrigatória
@@ -39,17 +40,24 @@ namespace Volunteia.Models
         [Display(Name = "ODS")] // Nome a ser exibido
         public TipoODS ODS { get; set; } // Objetivo de Desenvolvimento Sustentável associado
 
+        public ActionStatus ActionStatus { get; set; }
+
         [Required(ErrorMessage = "Informe o número aproximado de voluntários")] // Validação obrigatória
         [Display(Name = "Número de voluntários esperado")] // Nome a ser exibido
         public int VolunteersTotal { get; set; } // Número total de voluntários esperados
 
         [Required(ErrorMessage = "Informe o número de estimativa de pessoas alcançadas")] // Validação obrigatória
-        [Display(Name = "Número estimativa")] // Nome a ser exibido
-        public int Alcance { get; set; } // Número estimado de pessoas alcançadas
+        [Display(Name = "Número de estimativa de pessoas ajudadas:")] // Nome a ser exibido
+        public int NumberOfPeopleHelped { get; set; } // Número estimado de pessoas alcançadas
+
+        public int Rate { get; set; }
     }
     // Enumeração que representa os possíveis estados de uma ação
     public enum ActionStatus
     {
+        [Display(Name = " Aguardando aprovação")]
+        Aguardandoaprovação,
+
         // Estado que indica que a ação está atualmente em andamento e aceita novos participantes
         Ativa,
 

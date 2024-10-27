@@ -1,4 +1,4 @@
-﻿@model IEnumerable<Volunteia.Models.Action>
+﻿@model IEnumerable<Volunteia.Models.UserAction>
 
 @{
     ViewData["Title"] = "Index";
@@ -34,10 +34,16 @@
                 @Html.DisplayNameFor(model => model.ODS)
             </th>
             <th>
+                @Html.DisplayNameFor(model => model.ActionStatus)
+            </th>
+            <th>
                 @Html.DisplayNameFor(model => model.VolunteersTotal)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Alcance)
+                @Html.DisplayNameFor(model => model.NumberOfPeopleHelped)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Rate)
             </th>
             <th></th>
         </tr>
@@ -67,10 +73,16 @@
                 @Html.DisplayFor(modelItem => item.ODS)
             </td>
             <td>
+                @Html.DisplayFor(modelItem => item.ActionStatus)
+            </td>
+            <td>
                 @Html.DisplayFor(modelItem => item.VolunteersTotal)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Alcance)
+                @Html.DisplayFor(modelItem => item.NumberOfPeopleHelped)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Rate)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.ActionId">Edit</a> |

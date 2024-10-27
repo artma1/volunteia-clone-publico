@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Volunteia.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialCreate : Migration
+    public partial class M01CreateTableUserActions : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -32,26 +32,28 @@ namespace Volunteia.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Actions",
+                name: "UserActions",
                 columns: table => new
                 {
                     ActionId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     UserId = table.Column<int>(type: "int", nullable: false),
-                    Foto = table.Column<byte[]>(type: "varbinary(max)", nullable: false),
+                    Foto = table.Column<string>(type: "varbinary(max)", nullable: true),
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Patrocinador = table.Column<bool>(type: "bit", nullable: false),
                     ActionDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     ActionBio = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     ODS = table.Column<int>(type: "int", nullable: false),
+                    ActionStatus = table.Column<int>(type: "int", nullable: false),
                     VolunteersTotal = table.Column<int>(type: "int", nullable: false),
-                    Alcance = table.Column<int>(type: "int", nullable: false)
+                    NumberOfPeopleHelped = table.Column<int>(type: "int", nullable: false),
+                    Rate = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Actions", x => x.ActionId);
+                    table.PrimaryKey("PK_UserActions", x => x.ActionId);
                     table.ForeignKey(
-                        name: "FK_Actions_User_UserId",
+                        name: "FK_UserActions_User_UserId",
                         column: x => x.UserId,
                         principalTable: "User",
                         principalColumn: "Id",
@@ -59,8 +61,8 @@ namespace Volunteia.Migrations
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_Actions_UserId",
-                table: "Actions",
+                name: "IX_UserActions_UserId",
+                table: "UserActions",
                 column: "UserId");
         }
 
@@ -68,7 +70,7 @@ namespace Volunteia.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Actions");
+                name: "UserActions");
 
             migrationBuilder.DropTable(
                 name: "User");

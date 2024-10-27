@@ -8,7 +8,7 @@ namespace Volunteia.Models
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
         // Propriedade que representa a tabela de ações
-        public DbSet<Action> Actions { get; set; }
+        public DbSet<UserAction> UserActions { get; set; }
 
         // Propriedade que representa a tabela de usuários
         public DbSet<User> Users { get; set; }

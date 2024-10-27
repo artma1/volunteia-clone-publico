@@ -4,17 +4,17 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Volunteia.Models
 {
-    [Table("User")]
+    [Table("Users")]
     public class User
     {
         [Key]
-        public int Id { get; set; }
+        public int UserId { get; set; }
         [Required(ErrorMessage = "Obrigatório informar seu nome.")]
         [MaxLength(200)]
         [Display(Name ="Nome")]
         public string Name { get; set; }
         public int NumberOfActions { get; set; }
-        public ICollection<Action> ActionLog { get; set; }
+        public ICollection<UserAction> ActionLog { get; set; }
         [Required(ErrorMessage = "Obrigatório informar seu email.")]
         [MaxLength(200)]
         public string Email { get; set; }
@@ -27,7 +27,7 @@ namespace Volunteia.Models
         public bool IsPrivate { get; set; }
         public UserStatus UserStatus { get; set; }
 
-        public ICollection<Action> Action;
+        public ICollection<UserAction> Action;
     }
 
     public enum UserStatus
