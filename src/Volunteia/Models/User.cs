@@ -45,7 +45,7 @@ namespace Volunteia.Models
         [Display(Name = "Tipo de usuário")]
         public UserStatus UserStatus { get; set; }
 
-        public ICollection<UserAction> Action;
+        public ICollection<Action> Action;
     }
 
     public enum UserStatus
