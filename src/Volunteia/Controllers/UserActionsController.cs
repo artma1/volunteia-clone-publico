@@ -6,30 +6,25 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Volunteia.Models;
-using Action = Volunteia.Models.Action;
 
 namespace Volunteia.Controllers
 {
-    public class ActionsController : Controller
+    public class UserActionsController : Controller
     {
         private readonly AppDbContext _context;
 
-        public ActionsController(AppDbContext context)
+        public UserActionsController(AppDbContext context)
         {
             _context = context;
         }
 
-        // GET: Actions
+        // GET: UserActions
         public async Task<IActionResult> Index()
         {
-
-            return View(await _context.Actions.ToListAsync());
-
-
+            return View(await _context.UserActions.ToListAsync());
         }
 
-
-        // GET: Actions/Details/5
+        // GET: UserActions/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -37,39 +32,39 @@ namespace Volunteia.Controllers
                 return NotFound();
             }
 
-            var action = await _context.Actions
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (action == null)
+            var userAction = await _context.UserActions
+                .FirstOrDefaultAsync(m => m.ActionId == id);
+            if (userAction == null)
             {
                 return NotFound();
             }
 
-            return View(action);
+            return View(userAction);
         }
 
-        // GET: Actions/Create
+        // GET: UserActions/Create
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Actions/Create
+        // POST: UserActions/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Foto,Nome,Patrocinador,Data,Descricao,ODS,NumVonlutarios,alcance")] Action action)
+        public async Task<IActionResult> Create([Bind("ActionId,Name,Patrocinador,ActionDate,ActionBio,ODS,ActionStatus,VolunteersTotal,NumberOfPeopleHelped,Rate")] UserAction userAction)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(action);
+                _context.Add(userAction);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(action);
+            return View(userAction);
         }
 
-        // GET: Actions/Edit/5
+        // GET: UserActions/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -77,22 +72,22 @@ namespace Volunteia.Controllers
                 return NotFound();
             }
 
-            var action = await _context.Actions.FindAsync(id);
-            if (action == null)
+            var userAction = await _context.UserActions.FindAsync(id);
+            if (userAction == null)
             {
                 return NotFound();
             }
-            return View(action);
+            return View(userAction);
         }
 
-        // POST: Actions/Edit/5
+        // POST: UserActions/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Foto,Nome,Patrocinador,Data,Descricao,ODS,NumVonlutarios,alcance")] Action action)
+        public async Task<IActionResult> Edit(int id, [Bind("ActionId,Name,Patrocinador,ActionDate,ActionBio,ODS,ActionStatus,VolunteersTotal,NumberOfPeopleHelped,Rate")] UserAction userAction)
         {
-            if (id != action.Id)
+            if (id != userAction.ActionId)
             {
                 return NotFound();
             }
@@ -101,12 +96,12 @@ namespace Volunteia.Controllers
             {
                 try
                 {
-                    _context.Update(action);
+                    _context.Update(userAction);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!ActionExists(action.Id))
+                    if (!UserActionExists(userAction.ActionId))
                     {
                         return NotFound();
                     }
@@ -117,10 +112,10 @@ namespace Volunteia.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            return View(action);
+            return View(userAction);
         }
 
-        // GET: Actions/Delete/5
+        // GET: UserActions/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -128,34 +123,34 @@ namespace Volunteia.Controllers
                 return NotFound();
             }
 
-            var action = await _context.Actions
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (action == null)
+            var userAction = await _context.UserActions
+                .FirstOrDefaultAsync(m => m.ActionId == id);
+            if (userAction == null)
             {
                 return NotFound();
             }
 
-            return View(action);
+            return View(userAction);
         }
 
-        // POST: Actions/Delete/5
+        // POST: UserActions/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var action = await _context.Actions.FindAsync(id);
-            if (action != null)
+            var userAction = await _context.UserActions.FindAsync(id);
+            if (userAction != null)
             {
-                _context.Actions.Remove(action);
+                _context.UserActions.Remove(userAction);
             }
 
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool ActionExists(int id)
+        private bool UserActionExists(int id)
         {
-            return _context.Actions.Any(e => e.Id == id);
+            return _context.UserActions.Any(e => e.ActionId == id);
         }
     }
 }
