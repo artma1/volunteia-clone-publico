@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Volunteia.Models;
 
@@ -49,14 +48,13 @@ namespace Volunteia.Controllers
         }
 
         // POST: Users/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,NumberOfActions,Email,Phone,Adress,CPForCNPJ,ShortBio,IsRestricted,IsBenefactor,IsPrivate,UserStatus")] User user)
+        public async Task<IActionResult> Create([Bind("Id,Name,Senha,NumberOfActions,Email,Phone,Address,CPForCNPJ,ShortBio,IsRestricted,IsBenefactor,IsPrivate,UserStatus,Senha")] User user)
         {
             if (ModelState.IsValid)
             {
+                user.Senha = BCrypt.Net.BCrypt.HashPassword(user.Senha);
                 _context.Add(user);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -81,11 +79,9 @@ namespace Volunteia.Controllers
         }
 
         // POST: Users/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,NumberOfActions,Email,Phone,Adress,CPForCNPJ,ShortBio,IsRestricted,IsBenefactor,IsPrivate,UserStatus")] User user)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,NumberOfActions,Email,Phone,Address,CPForCNPJ,ShortBio,IsRestricted,IsBenefactor,IsPrivate,UserStatus")] User user)
         {
             if (id != user.Id)
             {
@@ -107,7 +103,7 @@ namespace Volunteia.Controllers
                     }
                     else
                     {
-                        throw;
+                        ModelState.AddModelError("", "Erro de concorrência ao tentar salvar as alterações. Tente novamente.");
                     }
                 }
                 return RedirectToAction(nameof(Index));
@@ -142,9 +138,9 @@ namespace Volunteia.Controllers
             if (user != null)
             {
                 _context.Users.Remove(user);
+                await _context.SaveChangesAsync();
             }
 
-            await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
