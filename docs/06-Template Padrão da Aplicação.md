@@ -52,7 +52,19 @@
 | H5 | Open Sans | 18 | Regular | Títulos menores | 
 H6 | Open Sans | 16 | Regular | Texto de rodapé ou notas | 
 
-###
+--
+### Logo
+
+![Logo](https://github.com/user-attachments/assets/be33cecb-1267-462e-b0af-b69ca2359822)
 
 --
+### Templates
+#### Tela Home
 
+![CriacaoAcao](https://github.com/user-attachments/assets/4e3014dd-8034-4f0d-9c10-b6c618c40b41)
+
+
+#### Tela Criação Ação
+
+![Home](https://github.com/user-attachments/assets/63637216-4770-4ea6-8338-c16294553f08)
+--

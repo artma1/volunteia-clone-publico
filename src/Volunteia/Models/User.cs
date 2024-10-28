@@ -11,8 +11,13 @@ namespace Volunteia.Models
         public int Id { get; set; }
         [Required(ErrorMessage = "Obrigatório informar seu nome.")]
         [MaxLength(100)]
-        [Display(Name ="Nome")]
+        [Display(Name = "Nome")]
         public string Name { get; set; }
+
+        [Required(ErrorMessage = "Obrigatorio Informar a senha")]
+        [DataType(DataType.Password)]
+        public string Senha { get; set; }
+
         [Display(Name = "Número de ações")]
         public int NumberOfActions { get; set; }
 
