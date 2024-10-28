@@ -11,13 +11,20 @@ namespace Volunteia.Models
         public int Id { get; set; }
         [Required(ErrorMessage = "Obrigatório informar seu nome.")]
         [MaxLength(100)]
-        [Display(Name ="Nome")]
+        [Display(Name = "Nome")]
         public string Name { get; set; }
+
+        [Required(ErrorMessage = "Obrigatorio Informar a senha")]
+        [DataType(DataType.Password)]
+        public string Senha { get; set; }
+
         [Display(Name = "Número de ações")]
         public int NumberOfActions { get; set; }
-        public ICollection<Action> ActionLog { get; set; }
+
+        public ICollection<UserAction> ActionLog { get; set; }
         [Required(ErrorMessage = "Obrigatório informar o email.")]
         [MaxLength(100)]
+
         public string Email { get; set; }
         [Required(ErrorMessage = "Obrigatório informar o telefone.")]
         [MaxLength(50)]
@@ -26,7 +33,7 @@ namespace Volunteia.Models
         [Required(ErrorMessage = "Obrigatório informar endereço. O endereço é privado para usuários tipo pessoas")]
         [MaxLength(150)]
         [Display(Name = "Endereço")]
-        public string Adress { get; set; }
+        public string Address { get; set; }
         [Required(ErrorMessage = "Obrigatório informar o documento.")]
         [MaxLength(18)]
         [Display(Name = "CPF ou CNPJ (apenas números)")]
@@ -45,7 +52,7 @@ namespace Volunteia.Models
         [Display(Name = "Tipo de usuário")]
         public UserStatus UserStatus { get; set; }
 
-        public ICollection<Action> Action;
+        public ICollection<UserAction> Action;
     }
 
     public enum UserStatus
