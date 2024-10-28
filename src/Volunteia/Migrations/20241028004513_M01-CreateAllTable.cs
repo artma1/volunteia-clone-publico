@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Volunteia.Migrations
 {
     /// <inheritdoc />
-    public partial class M0AddTableUserAction : Migration
+    public partial class M01CreateAllTable : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -17,10 +17,13 @@ namespace Volunteia.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Name = table.Column<string>(type: "nvarchar(200)", maxLength: 200, nullable: false),
+                    Name = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
                     NumberOfActions = table.Column<int>(type: "int", nullable: false),
-                    Email = table.Column<string>(type: "nvarchar(200)", maxLength: 200, nullable: false),
-                    Phone = table.Column<string>(type: "nvarchar(200)", maxLength: 200, nullable: false),
+                    Email = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
+                    Phone = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
+                    Address = table.Column<string>(type: "nvarchar(150)", maxLength: 150, nullable: false),
+                    CPForCNPJ = table.Column<string>(type: "nvarchar(18)", maxLength: 18, nullable: false),
+                    ShortBio = table.Column<string>(type: "nvarchar(500)", maxLength: 500, nullable: false),
                     IsRestricted = table.Column<bool>(type: "bit", nullable: false),
                     IsBenefactor = table.Column<bool>(type: "bit", nullable: false),
                     IsPrivate = table.Column<bool>(type: "bit", nullable: false),

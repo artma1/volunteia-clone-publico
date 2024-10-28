@@ -6,10 +6,7 @@ namespace Volunteia.Models
     {
         // Construtor que recebe as opções do DbContext
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
-<<<<<<< HEAD
-         public DbSet<Action> Actions { get; set; }
-        public DbSet<User> Users { get; set; }
-=======
+
 
         // Propriedade que representa a tabela de ações
         public DbSet<UserAction> UserActions { get; set; }
@@ -21,9 +18,8 @@ namespace Volunteia.Models
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            
+
         }
 
->>>>>>> feature/ModelAction
     }
 }

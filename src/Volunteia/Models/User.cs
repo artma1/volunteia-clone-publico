@@ -20,7 +20,6 @@ namespace Volunteia.Models
         [Required(ErrorMessage = "Obrigatório informar o email.")]
         [MaxLength(100)]
 
-
         public string Email { get; set; }
         [Required(ErrorMessage = "Obrigatório informar o telefone.")]
         [MaxLength(50)]
@@ -29,7 +28,7 @@ namespace Volunteia.Models
         [Required(ErrorMessage = "Obrigatório informar endereço. O endereço é privado para usuários tipo pessoas")]
         [MaxLength(150)]
         [Display(Name = "Endereço")]
-        public string Adress { get; set; }
+        public string Address { get; set; }
         [Required(ErrorMessage = "Obrigatório informar o documento.")]
         [MaxLength(18)]
         [Display(Name = "CPF ou CNPJ (apenas números)")]
