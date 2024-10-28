@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.ApplicationModels;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.CodeAnalysis;
 using Microsoft.EntityFrameworkCore;
 using Volunteia.Models;
 
@@ -12,10 +14,12 @@ namespace Volunteia.Controllers
     public class UserActionsController : Controller
     {
         private readonly AppDbContext _context;
+        private readonly HttpClient _httpClient;
 
-        public UserActionsController(AppDbContext context)
+        public UserActionsController(AppDbContext context, HttpClient httpClient)
         {
             _context = context;
+            _httpClient = httpClient;   
         }
 
         // GET: UserActions
@@ -59,11 +63,28 @@ namespace Volunteia.Controllers
             {
                 _context.Add(userAction);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                
+                var actionService = new ActionService(userAction, _httpClient); // Supondo que você tenha um construtor adequado
+                var result = await actionService.PublishActionAsync(userAction.Name, userAction.ActionBio);
+
+                if (result.Equals("Aprovado"))
+                {
+                    userAction.ActionStatus = ActionStatus.Ativa;
+                    _context.UserActions.Update(userAction);
+                    await _context.SaveChangesAsync();
+                    return Ok($"Ação aprovada e publicada. {result}");
+                }
+                else
+                {
+                    userAction.ActionStatus = ActionStatus.Aguardandoaprovação;
+                    return Ok($"Ação aguardando moderação. {result}");
+                }
+                //return RedirectToAction(nameof(Index));
             }
+
             return View(userAction);
         }
-
+        
         // GET: UserActions/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
@@ -91,6 +112,7 @@ namespace Volunteia.Controllers
             {
                 return NotFound();
             }
+
 
             if (ModelState.IsValid)
             {

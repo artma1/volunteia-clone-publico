@@ -1,5 +1,9 @@
 using Microsoft.EntityFrameworkCore;
 using Volunteia.Models;
+using OpenAI.Chat;
+
+
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +16,10 @@ builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
 // Configura o contexto do banco de dados com a string de conexão
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+builder.Services.AddHttpClient();
+
+
 
 var app = builder.Build();
 
