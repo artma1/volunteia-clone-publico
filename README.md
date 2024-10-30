@@ -8,28 +8,10 @@
 
 O projeto consiste de uma plataforma que conecte pessoas e instituições que desejam fazer algum trabalho voluntário, através da criação descentralizada de ações voluntárias focadas em um ou mais dos 17 ODS. Qualquer pessoa ou instituição poderá criar uma ação voluntária que ficará disponível na plataforma. Baseado nos dados da ação voluntária, outros usuários que se identifiquem poderão se juntar à mesma.
 
+
 ## Integrantes
 
 * Artur Maciel de Assis Pinto
-* Brendo William Rodrigues
-* Gustavo Gonçalve da Paz
-* João Victor Kalil de Almeida Lapa
-* Lucy Elaine Quispe Suxo
-* Sharon Steicy Dos Santos Vasquez
-
-## Orientador
-
-* Claudio Faria
-
-## Instruções de utilização
-
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
-
-Não deixe de informar o link onde a aplicação estiver disponível para acesso (por exemplo: https://adota-pet.herokuapp.com/src/index.html).
-
-Se houver usuário de teste, o login e a senha também deverão ser informados aqui (por exemplo: usuário - admin / senha - admin).
-
-O link e o usuário/senha descritos acima são apenas exemplos de como tais informações deverão ser apresentadas.
 
 # Documentação
 
@@ -49,10 +31,3 @@ O link e o usuário/senha descritos acima são apenas exemplos de como tais info
 <li><a href="docs/13-Referências.md"> Referências</a></li>
 </ol>
 
-# Código
-
-<li><a href="src/README.md"> Código Fonte</a></li>
-
-# Apresentação
-
-<li><a href="presentation/README.md"> Apresentação da solução</a></li>
