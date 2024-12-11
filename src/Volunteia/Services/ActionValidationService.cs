@@ -21,7 +21,7 @@ public class ActionService
 
         string prompt = $"O seguinte título e/ou descrição deve ter status 'negligible' ou 'low' dentro das safety ratings do Gemini. Responda APENAS com 'Aprovado' (sem aspas) caso passe no teste, ou então 'aguardar moderação'.\n\nTítulo: {Name}\nDescrição: {ActionBio}";
 
-        var url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyBw82orw2595kKeAHonDT00H1R1eAMrF1c"; // Substitua pelo endpoint da API desejada
+        var url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=chave"; // Substitua pelo endpoint da API desejada
 
         var jsonContent = new StringContent(
            $"{{\"contents\":[{{\"parts\":[{{\"text\":\"{prompt}\"}}]}}]}}",
